@@ -1,0 +1,563 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;;
+  color: #FFF;
+  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');
+}
+
+.page {
+    padding: 2%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* styling the progress bar */
+#prog-bar{
+    height: 1vh;
+    width: 18vw;
+    position: fixed;
+    right: 4.5vw;
+    top: 3.5vh;
+    z-index: 1000;
+}
+
+/* progress bar's Earth */
+#prog-earth {
+    border: none;
+    width: 2.5vw;
+    right: 23.5vw;
+    top: 2vh;   
+    position: fixed;
+    z-index: 1000;
+}
+
+/* progress bar's Mars */
+#prog-mars {
+    border: none;
+    width: 2.5vw;
+    right: 1vw;
+    top: 2vh;   
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.title_0 {
+    color: white;
+    font-size: 10vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    left: 30vw;
+    top: 40vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.abraiz_majid {
+    color: white;
+    font-size: 2vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    left: 15vw;
+    top: 40vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    /* transform: rotate(-90deg); */
+}
+
+.story_heading {
+    color: white;
+    font-size: 5vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    right: -2vw;
+    top: 10vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.story__1 {
+    color: white;
+    font-size: 2vw;    
+    left: 35vw;
+    top: 15vh;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    /* transform: rotate(-90deg); */
+}
+
+.story__2 {
+    color: white;
+    font-size: 2vw;    
+    left: 32vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 45vh;
+}
+
+.story__3 {
+    color: white;
+    font-size: 2vw;    
+    left: 35vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 75vh;
+}
+
+.about_heading {
+    color: white;
+    font-size: 5vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    right: -3vw;
+    top: 10vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.video_heading {
+    color: white;
+    font-size: 5vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    right: -3vw;
+    top: 10vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
+.video {
+    color: white;
+    font-size: 2vw;  
+    border: 0.15vw solid white;
+    border-radius: 1.5vw;  
+    left: 5vw;
+    top: 10vh;
+    position: absolute;
+    width: 60vw;
+    height: 50vh;
+    margin: 0;
+    /* transform: rotate(-90deg); */
+}
+
+.video_text {
+    color: white;
+    font-size: 1.5vw;    
+    left: 5vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 75vh;
+}
+
+.masterpiece_heading {
+    color: white;
+    font-size: 2vw;    
+    left: 5vw;
+    position: absolute;
+    width: 28vw;
+    margin: 0;
+    top: 10vh;
+}
+
+.about_text {
+    color: white;
+    font-size: 1.5vw;    
+    left: 5vw;
+    position: absolute;
+    width: 50vw;
+    height: 75vh;
+    margin: 0;
+    top: 20vh;
+}
+
+.aboutpic__1 {
+    width: 25vw;
+    right: 15vw;
+    top: 15vh;
+}
+
+.aboutpic__2 {
+    width: 25vw;
+    right: 15vw;
+    top: 55vh;
+}
+
+img {
+    border-radius: 1.5vw;
+    /* border: 0.15vw solid #ffffff; */
+    position: absolute;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* .pic__1:hover {
+    filter: brightness(40%);
+}
+
+.pic__2:hover {
+    filter: brightness(40%);
+} */
+
+.button {
+    border: none;
+    color: white;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 5vh 5vw;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.15vw solid white;
+    border-radius: 1.5vw;
+    position: absolute;
+}
+
+/* styling elements inside page-1 */
+
+/* #title-1{
+    font-size: 3vw;
+    top: 15vh;
+    left: 20vw;
+    width: 60vw;
+    text-align: center;
+    font-weight: 400;
+} */
+
+#earth-1 {
+    border: none;
+    width: 22vw;
+    right: 39vw;
+    top: 30vh; 
+    
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 20px, 0);
+    }
+}
+
+#arrow {
+    border: none;
+    width: 5vw;
+    right: 14vw;
+    top: 85vh; 
+    
+    animation: bounce 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+/* Reference : https://www.geeksforgeeks.org/how-to-make-smooth-bounce-animation-using-css/ */
+
+#button1:hover{
+    background-color:#d36b16;
+}
+  
+.about-button {
+    right: 15vw;
+    top: 65vh;  
+    /* display: none; */
+}
+
+.video-button {
+    right: 15vw;
+    top: 50vh;  
+    /* display: none; */
+}
+
+.story-button {
+    right: 15vw;
+    top: 35vh;  
+    /* display: none; */
+}
+
+#blockquote-liftoff {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;    
+    right: 2.5vw;
+    position: absolute;
+    width: 20vw;
+    top: 80vh;
+}
+
+/* styling elements inside page-2 */
+
+#blockquote-2 {
+    width: 26vw;
+}
+
+#launch-1 {
+    width: 25vw;
+    right: 10vw;
+    top: 10vh;
+}
+
+#launch-2 {
+    width: 25vw;
+    height: 28vh;
+    right: 10vw;
+    top: 60vh;
+}
+
+#launch-3 {
+    width: 25vw;
+    height: 28vh;
+    left: 5vw;
+    top: 35vh;
+}
+
+#earth-2 {
+    border: none;
+    width: 25vw;
+    right: 40vw;
+    top: 40vh;   
+}
+
+#rocket-1 {
+    border: none;
+    width: 12vw;
+    right: 46vw;
+    top: 0vh; 
+}
+
+/* styling elements inside page-3 */
+
+#curiosity-1 {
+    border: none;
+    width: 25vw;
+    right: 3vw;
+    top: 15vh;
+}
+
+.button4 {
+    right: 8vw;
+    top: 65vh;  
+} 
+
+#blockquote-3d {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;    
+    right: 4.5vw;
+    position: absolute;
+    width: 18vw;
+    top: 80vh;
+    margin: 0;
+}
+
+#rocket-2 {
+    border: none;
+    width: 25vw;
+    right: 40vw;
+    top: 40vh;
+}
+
+/* styling elements inside page-4 */
+
+#cruise-pic1 {
+    width: 30vw;
+    height: 30vh;
+    right: 2vw;
+    top: 15vh;
+}
+
+#cruise-pic2 {
+    width: 30vw;
+    height: 30vh;
+    right: 2vw;
+    top: 55vh;
+}
+
+#cruise-1 {
+    border: none;
+    width: 25vw;
+    right: 40vw;
+    top: 50vh;
+}
+
+/* styling elements inside page-5 */
+
+#land-1 {
+    width: 28vw;
+    height: 30vh;
+    right: 2vw;
+    top: 15vh;
+}
+
+#land-2 {
+    width: 28vw;
+    height: 30vh;
+    right: 2vw;
+    top: 55vh;
+}
+
+#mars-1 {
+    border: none;
+    width: 28vw;
+    right: 36vw;
+    top: 40vh;   
+}
+
+#cruise-2 {
+    border: none;
+    width: 15vw;
+    right: 43vw;
+    top: 30vh;
+}
+
+/* styling elements inside page-6 */
+
+#page-6 {
+    padding: 0;
+    display: block;
+}
+
+#mars-bg {
+    border: none;
+    width: 100vw;
+    height: 60vh;
+    top: 40vh;
+    z-index: -1000;
+}
+
+#curiosity {
+    border: none;
+    width: 25vw;
+    top: 53vh;
+    right: 70vw;
+
+    animation: bounce 0.3s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 3px, 0);
+    }
+}
+
+/* Reference : https://www.geeksforgeeks.org/how-to-make-smooth-bounce-animation-using-css/ */
+
+
+.button:hover{
+    background-color:#156991;
+}
+
+.button3 {
+    right: 4vw;
+    top: 25vh;  
+} 
+
+#button5 {
+    width: 25vw;
+    height: 29vh;
+    top: 52.5vh;
+    right: 70vw;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* hiding instruction and '?' symbol */
+.hidden {
+    display: none;
+}
+
+#instructions {
+    color: white;
+    font-size: 1.5vw;    
+    left: 20vw;
+    top: 15vh;
+    position: absolute;
+    text-align: center;
+    width: 28vw;
+    margin: 0;
+}
+
+#question {
+    color: white;
+    font-size: 5vw;
+    font-weight: 400;  
+    left: 3.5vw;
+    top: 15vh;
+    position: absolute;
+    text-align: center;
+    width: 28vw;
+    margin: 0;
+}
+
+/* displaying instrucctions and '?' symbol when pointer is hovered over button6 */
+#button6:hover + .hidden {
+    display: block;
+}
+
+#button6 {
+    right: 4vw;
+    top: 10vh; 
+}
+
+#canvas-container {
+    width: 98vw;
+    height: 98vh;
+    right: 40vw;
+    padding: 0;
+    margin: 0;
+}
+
+/* styling elements inside page-7 (new tab with 3D model) */
+
+#page-7 {
+    padding: 0;
+}
