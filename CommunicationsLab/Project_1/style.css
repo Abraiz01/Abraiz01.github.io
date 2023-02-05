@@ -92,31 +92,31 @@ body {
 
 .story__1 {
     color: white;
-    font-size: 2vw;    
-    left: 35vw;
-    top: 15vh;
+    font-size: 1.5vw;    
+    left: 20vw;
+    top: 20vh;
     position: absolute;
-    width: 28vw;
+    width: 40vw;
     margin: 0;
     /* transform: rotate(-90deg); */
 }
 
 .story__2 {
     color: white;
-    font-size: 2vw;    
+    font-size: 1.5vw;    
     left: 32vw;
     position: absolute;
-    width: 28vw;
+    width: 40vw;
     margin: 0;
-    top: 45vh;
+    top: 50vh;
 }
 
 .story__3 {
     color: white;
-    font-size: 2vw;    
-    left: 35vw;
+    font-size: 1.5vw;    
+    left: 25vw;
     position: absolute;
-    width: 28vw;
+    width: 40vw;
     margin: 0;
     top: 75vh;
 }
@@ -180,7 +180,7 @@ body {
     position: absolute;
     width: 28vw;
     margin: 0;
-    top: 10vh;
+    top: 20vh;
 }
 
 .about_text {
@@ -188,10 +188,10 @@ body {
     font-size: 1.5vw;    
     left: 5vw;
     position: absolute;
-    width: 50vw;
+    width: 45vw;
     height: 75vh;
     margin: 0;
-    top: 20vh;
+    top: 40vh;
 }
 
 .aboutpic__1 {
