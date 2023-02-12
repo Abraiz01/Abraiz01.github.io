@@ -149,16 +149,16 @@ body {
     transform: rotate(-90deg);
 }
 
-.video {
+.video-container {
     color: white;
     font-size: 2vw;  
     border: 0.15vw solid white;
-    border-radius: 1.5vw;  
+    /* border-radius: 1.5vw;   */
     left: 5vw;
     top: 10vh;
     position: absolute;
-    width: 60vw;
-    height: 50vh;
+    width: 80vw;
+    height: 70vh;
     margin: 0;
     /* transform: rotate(-90deg); */
 }
@@ -170,7 +170,7 @@ body {
     position: absolute;
     width: 28vw;
     margin: 0;
-    top: 75vh;
+    top: 85vh;
 }
 
 .masterpiece_heading {
