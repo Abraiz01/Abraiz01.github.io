@@ -140,7 +140,7 @@ body {
     font-size: 5vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
-    right: -3vw;
+    right: 0vw;
     top: 10vh;
     position: absolute;
     /* width: 5vw;
@@ -154,11 +154,11 @@ body {
     font-size: 2vw;  
     border: 0.15vw solid white;
     /* border-radius: 1.5vw;   */
-    left: 5vw;
+    left: 20vw;
     top: 10vh;
     position: absolute;
-    width: 80vw;
-    height: 70vh;
+    width: 60vw;
+    height: 60vh;
     margin: 0;
     /* transform: rotate(-90deg); */
 }
@@ -166,7 +166,7 @@ body {
 .video_text {
     color: white;
     font-size: 1.5vw;    
-    left: 5vw;
+    left: 40vw;
     position: absolute;
     width: 28vw;
     margin: 0;

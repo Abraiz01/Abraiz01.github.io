@@ -41,7 +41,7 @@ const scene2 = new ScrollMagic.Scene({
 // function to keep track of the scrolling progress made by the user
 function updatePercentage2() {
   tl2.progress();
-  console.log(tl2.progress());
+  // console.log(tl2.progress());
 }
 
 /* the same approach is followed for pages 3-5, 
@@ -52,7 +52,7 @@ function updatePercentage2() {
 
 var tl3 = new TimelineMax({onUpdate:updatePercentage3});
 
-tl3.from('#blockquote-3', .5, {x:200, opacity: 0});
+tl3.from('#video-div', .5, {y:300, opacity: 0});
 tl3.from('#blockquote-4', .5, {x:200, opacity: 0});
 tl3.from('#curiosity-1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-1");
 tl3.from('#button4', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.7");
@@ -71,7 +71,7 @@ const scene3 = new ScrollMagic.Scene({
 
 function updatePercentage3() {
   tl3.progress();
-  console.log(tl3.progress());
+  // console.log(tl3.progress());
 }
 
 /* --- PAGE 4 --- */
@@ -96,7 +96,7 @@ const scene4 = new ScrollMagic.Scene({
 
 function updatePercentage4() {
   tl4.progress();
-  console.log(tl4.progress());
+  // console.log(tl4.progress());
 }
 
 /* --- PAGE 5 --- */
@@ -121,7 +121,7 @@ const scene5 = new ScrollMagic.Scene({
 
 function updatePercentage5() {
   tl5.progress();
-  console.log(tl5.progress());
+  // console.log(tl5.progress());
 }
 
 /* --- code for GSAP and ScrollMagic ends here --- */
