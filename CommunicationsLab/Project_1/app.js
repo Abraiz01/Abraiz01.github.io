@@ -19,11 +19,13 @@ const controller = new ScrollMagic.Controller();
 
 // creating tween instances and defining parameters for the initial state of the animated object,
 // its speed, timing, opacity, and direction of motion
-tl2.from('#blockquote-1', .5, {x:200, opacity: 0});
-tl2.from('#blockquote-2', .5, {x:200, opacity: 0});
-tl2.from('#launch-1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-1");
-tl2.from('#launch-2', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.7");
-tl2.from('#rocket-1', 1, {y:0.45*height, ease: Power4.easeInOut}, "=-.7");
+tl2.from('#story-1', .5, {x:200, opacity: 0});
+tl2.from('#storypic-1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.5");
+tl2.from('#story-3', .5, {x:-200, opacity: 0})
+tl2.from('#storypic-3', 1, {x:200, opacity: 0, ease: Power4.easeInOut}, "=-.5");
+tl2.from('#story-2', .5, {x:200, opacity: 0});
+tl2.from('#storypic-2', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.5");
+
 
 // creating a scene object for page-2 that allows the animations to play
 // once the user has scrolled enough to display the page entirely

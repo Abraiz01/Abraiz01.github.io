@@ -93,7 +93,7 @@ body {
 .story__1 {
     color: white;
     font-size: 1.5vw;    
-    left: 25vw;
+    left: 22vw;
     top: 20vh;
     position: absolute;
     width: 40vw;
@@ -104,7 +104,7 @@ body {
 .story__2 {
     color: white;
     font-size: 1.5vw;    
-    left: 32vw;
+    left: 34vw;
     position: absolute;
     width: 40vw;
     margin: 0;
@@ -114,7 +114,7 @@ body {
 .story__3 {
     color: white;
     font-size: 1.5vw;    
-    left: 25vw;
+    left: 22vw;
     position: absolute;
     width: 40vw;
     margin: 0;
@@ -333,20 +333,20 @@ img {
     width: 26vw;
 }
 
-#launch-1 {
+#storypic-1 {
     width: 25vw;
     right: 10vw;
     top: 10vh;
 }
 
-#launch-2 {
+#storypic-2 {
     width: 25vw;
     height: 28vh;
     right: 10vw;
     top: 60vh;
 }
 
-#launch-3 {
+#storypic-3 {
     width: 25vw;
     height: 28vh;
     left: 5vw;
