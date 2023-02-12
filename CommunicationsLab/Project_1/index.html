@@ -28,7 +28,7 @@
         <!-- <img class="earth" id="earth-1" src="./photos/earth.png"> -->
 
         <!-- teleportToMars function for the button is inside the app.js file -->
-        <button class="button about-button" id = "button1" onclick="window.location.href='#about-heading';">About</button>
+        <button class="button cast-button" id = "button1" onclick="window.location.href='#cast-heading';">Cast</button>
         <button class="button video-button" id = "button2" onclick="window.location.href='#video-heading';">Video</button>
         <button class="button story-button" id = "button3" onclick="window.location.href='#story-heading';">Story</button>
         <!-- <blockquote id="blockquote-liftoff">Scroll Down to Lift Off<span></span></blockquote>
@@ -58,12 +58,12 @@
     </section>
 
     <!-- section containing elements of the fourth page (launch)-->
-    <section class="page" id="page-2">
-        <blockquote class="about_heading" id="about-heading">About<span></span></blockquote>
+    <section class="page" id="page-4">
+        <blockquote class="cast_heading" id="cast-heading">Cast<span></span></blockquote>
         <blockquote class="masterpiece_heading" id="masterpiece-heading">Our Masterpeice<span></span></blockquote>
-        <blockquote class="about_text" id="about-text">Cool text for about section. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span></span></blockquote>
-        <img class="aboutpic__1" id="aboutpic-1" src="./photos/launch1.jpeg">
-        <img class="aboutpic__2" id="aboutpic-2" src="./photos/launch2.jpeg">
+        <blockquote class="cast_text" id="cast-text">Cool text for cast section. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span></span></blockquote>
+        <img class="castpic__1" id="castpic-1" src="./photos/launch1.jpeg">
+        <img class="castpic__2" id="castpic-2" src="./photos/launch2.jpeg">
         <!-- <img class="earth" id="earth-2" src="./photos/earth.png">
         <img class="rocket" id="rocket-1" src="./photos/rocket.png"> -->
 
@@ -75,7 +75,21 @@
     </section>
 
 
-    <!-- <script type="text/javascript" src="app.js"></script> -->
+    <!-- libraries and modules -->
+
+    <!-- Greensock and Scrollmagic libraries -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+
+    <!-- p5.js library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- module for the interactive 3d model -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     
 </body>

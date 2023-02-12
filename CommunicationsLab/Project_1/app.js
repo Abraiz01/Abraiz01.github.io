@@ -1,33 +1,3 @@
-// declaring variable to store path of json file
-let jsonFile = "./results.json";
-
-// declaring variable to store data inside json file
-let resultsData;
-
-// methodology adopted from an example we did in class to detect if the json data is loaded
-let isDataReady = false;
-
-// array to store objects from the 'Result' class
-let results = [];
-
-window.addEventListener("load", () => {
-    fetch(jsonFile)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      resultsData = data;
-      isDataReady = true;
-  
-      // creating objects for the discoveries made by Curiosity
-      for(let i=0;i<resultsData.results.length;i++) {
-        results.push(new Result(resultsData.results[i].img_text, resultsData.results[i].img, resultsData.results[i].date, resultsData.results[i].text))
-        
-      }
-  
-    })
-})
-
-
 
 /* --- code for GSAP and ScrollMagic starts here --- */
 
@@ -156,169 +126,18 @@ function updatePercentage5() {
 
 
 
-// initializing an earth variable for the earth button on the first page
-let earth;
-earth = document.getElementById('earth-1');
-
-// initializing 'teleport to mars' and 'game' buttons
-let button1;
-button1 = document.getElementById('button1');
-let button2;
-button2 = document.getElementById('button2');
-
-// adding mouseover event to make earth image opaque when the cursor
-// hovers over it
-earth.addEventListener("mouseover", function() {
-  earth.style.opacity = "0.5";
-});
-
-// returning earth opacity back to original state when cursor is no 
-// longer over earth
-earth.addEventListener("mouseout", function() {
-  earth.style.opacity = "1";
-});
-
-// making the 'teleport to mars' and 'game' buttons visible when earth is clicked
-earth.addEventListener("click", function() {
-  button1.style.display = "inline";
-  button2.style.display = "inline";
-});
-
-// function to scroll down to the last page where Curiosity is shown on Mars
-function teleportToMars() {
-  window.scrollTo({
-    top: 70000,
-    left: 100,
-    behavior: 'smooth'
-  });
-}
-
-// function to scroll up towards Earth to return to the first page
-function teleportToEarth() {
-  window.scrollTo({
-    top: 0,
-    left: 100,
-    behavior: 'smooth'
-  });
-}
-
-// initializing a curiosity variable for the curiosity rover button on the final page
-let curiosity;
-curiosity = document.getElementById('curiosity');
-
-// initializing 'teleport to earth' button
-let button3;
-button3 = document.getElementById('button3');
-
-// adding mouseover event to make Curiosity's image opaque when the cursor
-// hovers over it
-curiosity.addEventListener("mouseover", function() {
-  curiosity.style.opacity = "0.8";
-});
-
-// returning earth opacity back to original state when cursor is no 
-// longer over Curiosity
-curiosity.addEventListener("mouseout", function() {
-  curiosity.style.opacity = "1";
-});
-
-// making the 'teleport to earth' button visible when earth is clicked
-curiosity.addEventListener("click", function() {
-  button3.style.display = "inline";
-});
 
 
-// initializing a variable for the progress bar displayed in the top-right corner 
-let progressBar;
-progressBar = document.getElementById('prog-bar');
 
-// adding an event listener for a scroll event in order to make position calculations in the next steps
-window.addEventListener("scroll", () => {
- 
-  // console.log(scrollY);
-  // console.log( (scrollY/window.innerHeight*6))
 
-  // formula was derived from trial and error by observing the values of scrollY in the 
-  // console log. There are 6 windows in total, so the value of the current scroll position is divided 
-  // by the total height of all windows, this rounded to about 50% (halfway through the progress bar)  
-  // at the start of the last page, so the final result was multiplied by 2
-  progressBar.value = String((scrollY/window.innerHeight*6)*2);
-})
 
-var sketchWidth;
-var sketchHeight;
 
-// setting up p5.js canvas
-function setup() {
 
-    sketchWidth = document.getElementById("canvas-container").offsetWidth;
-    sketchHeight = document.getElementById("canvas-container").offsetHeight;
-    var canvas = createCanvas(sketchWidth, sketchHeight);
-   
-    // Move the canvas so it’s inside our <section class="page" id="page-6">
-    canvas.parent('canvas-container');
-  
-}
 
-function draw() {
-    clear();
-    // background(0,0,0);
-  
-    if(isDataReady) {
-      for(let i=0;i<results.length;i++) {
-        results[i].drawImage();
-      }
-    }
-    for(let i=0;i<results.length;i++) {
-      results[i].showResult(mouseX, mouseY);
-    }
-}
 
-// update values of width and height dynamically as window is resized
-function windowResized() {
-  sketchWidth = document.getElementById("canvas-container").offsetWidth;
-  sketchHeight = document.getElementById("canvas-container").offsetHeight;
-  resizeCanvas(sketchWidth, sketchHeight);
-}
 
-// creating a class that will instantiate json file objects which contain Curiosity's result info
-class Result {
-    constructor(title,img,date,text) {
-      // this.img = loadImage(img);
-      this.img = loadImage(img);
-      this.rock = loadImage("./photos/rock.png");
-      this.rock_w = 0.04*sketchWidth
-      this.rock_h = 0.04*sketchWidth
-      this.title = title;
-      this.date = date;
-      this.text = text;
-      this.x = random(0.35*sketchWidth,0.9*sketchWidth);
-      this.y = random(0.55*sketchHeight,0.95*sketchHeight);
-      this.r = 0.02*sketchWidth;
-      
-    }
 
-    drawImage() {
-      image(this.rock, this.x - Math.floor(this.rock_w/2), this.y - Math.floor(this.rock_h/2), this.rock_w, this.rock_h);
-    }
-    
-    // function to display contents of circles when they are clicked
-    showResult(mx, my) {
-      if(dist(mx, my, this.x, this.y) < this.r) {
-        
-        image(this.img, 0.04*sketchWidth, 0.03*sketchHeight, 0.25*sketchWidth, 0.35*sketchHeight);
 
-        textSize(0.022*sketchWidth);
-        fill(255,255,255)
-        text(this.title, 0.32*sketchWidth, 0.12*sketchHeight, 0.5*sketchWidth, 0.3*sketchHeight);
 
-        textSize(0.03*sketchWidth);
-        text(this.date, 0.32*sketchWidth, 0.08*sketchHeight);
 
-        textSize(0.015*sketchWidth);
-        text(this.text, 0.32*sketchWidth, 0.2*sketchHeight, 0.45*sketchWidth, 0.4*sketchWidth);
-      } 
-    }
-  
-  }
 

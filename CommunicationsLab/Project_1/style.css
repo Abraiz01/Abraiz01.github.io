@@ -121,12 +121,12 @@ body {
     top: 75vh;
 }
 
-.about_heading {
+.cast_heading {
     color: white;
     font-size: 5vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
-    right: -3vw;
+    right: 0vw;
     top: 10vh;
     position: absolute;
     /* width: 5vw;
@@ -183,7 +183,7 @@ body {
     top: 20vh;
 }
 
-.about_text {
+.cast_text {
     color: white;
     font-size: 1.5vw;    
     left: 5vw;
@@ -194,13 +194,13 @@ body {
     top: 40vh;
 }
 
-.aboutpic__1 {
+.castpic__1 {
     width: 25vw;
     right: 15vw;
     top: 15vh;
 }
 
-.aboutpic__2 {
+.castpic__2 {
     width: 25vw;
     right: 15vw;
     top: 55vh;
@@ -300,7 +300,7 @@ img {
     background-color:#d36b16;
 }
   
-.about-button {
+.cast-button {
     right: 15vw;
     top: 65vh;  
     /* display: none; */
