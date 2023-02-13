@@ -20,6 +20,7 @@ const controller = new ScrollMagic.Controller();
 // creating tween instances and defining parameters for the initial state of the animated object,
 // its speed, timing, opacity, and direction of motion
 tl2.from('#story-1', .5, {x:200, opacity: 0});
+
 tl2.from('#storypic-1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.5");
 tl2.from('#story-3', .5, {x:-200, opacity: 0})
 tl2.from('#storypic-3', 1, {x:200, opacity: 0, ease: Power4.easeInOut}, "=-.5");
@@ -71,7 +72,6 @@ const scene3 = new ScrollMagic.Scene({
 
 function updatePercentage3() {
   tl3.progress();
-  // console.log(tl3.progress());
 }
 
 /* --- PAGE 4 --- */
@@ -97,7 +97,6 @@ const scene4 = new ScrollMagic.Scene({
 
 function updatePercentage4() {
   tl4.progress();
-  // console.log(tl4.progress());
 }
 
 /* --- PAGE 5 --- */
@@ -122,14 +121,16 @@ const scene5 = new ScrollMagic.Scene({
 
 function updatePercentage5() {
   tl5.progress();
-  // console.log(tl5.progress());
 }
 
 /* --- code for GSAP and ScrollMagic ends here --- */
 
 // initializing 'teleport to mars' and 'game' buttons
 let button1;
-button1 = document.getElementById('button1');
+button1 = document.getElementById("button1").addEventListener("click", function() {
+  const target = document.querySelector("#cast-container2");
+  target.scrollIntoView({ behavior: "smooth" });
+});
 
 let button2;
 button2 = document.getElementById("button2").addEventListener("click", function() {
@@ -139,26 +140,10 @@ button2 = document.getElementById("button2").addEventListener("click", function(
 
 let button3;
 button3 = document.getElementById("button3").addEventListener("click", function() {
-  const target = document.querySelector("#storypic-2");
+  const target = document.querySelector("#placeholder-1");
   target.scrollIntoView({ behavior: "smooth" });
 });
 
-// function to scroll down to the last page where Curiosity is shown on Mars
-function teleportToCast() {
-  window.scrollTo({
-    top: 70000,
-    left: 100,
-    behavior: 'smooth'
-  });
-}
-
-function teleportToVideo() {
-  window.scrollTo({
-    top: 2700,
-    left: 100,
-    behavior: 'smooth'
-  });
-}
 
 
 
