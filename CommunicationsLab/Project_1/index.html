@@ -28,8 +28,8 @@
         <!-- <img class="earth" id="earth-1" src="./photos/earth.png"> -->
 
         <!-- teleportToMars function for the button is inside the app.js file -->
-        <button class="button cast-button" id = "button1" onclick="window.location.href='#cast-heading';">Cast</button>
-        <button class="button video-button" id = "button2" onclick="window.location.href='#video-heading';">Video</button>
+        <button class="button cast-button" id = "button1" onclick="teleportToCast()">Cast</button>
+        <button class="button video-button" id = "button2">Video</button>
         <button class="button story-button" id = "button3" onclick="window.location.href='#story-heading';">Story</button>
         <!-- <blockquote id="blockquote-liftoff">Scroll Down to Lift Off<span></span></blockquote>
         <img id="arrow" src="./photos/arrow.png"> -->
@@ -53,29 +53,34 @@
         <blockquote class="video_heading" id="video-heading">Video<span></span></blockquote>
         <div class="video-container" id="video-div">
             <video width="100%" height="100%" controls>
-              <source src="your_video.mp4" type="video/mp4">
-              <source src="your_video.ogg" type="video/ogg">
+              <source src="./photos/masterpiece.mp4" type="video/mp4">
+              <!-- <source src="your_video.ogg" type="video/ogg"> -->
               Your browser does not support the video tag.
             </video>
         </div>
         <blockquote class="video_text" id="video-text">Some funny text comes here<span></span></blockquote>
     </section>
 
-    <!-- section containing elements of the fourth page (launch)-->
+    <!-- section containing elements of the fourth page -->
     <section class="page" id="page-4">
-        <blockquote class="cast_heading" id="cast-heading">Cast<span></span></blockquote>
-        <blockquote class="masterpiece_heading" id="masterpiece-heading">Our Masterpeice<span></span></blockquote>
-        <blockquote class="cast_text" id="cast-text">Cool text for cast section. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span></span></blockquote>
-        <img class="castpic__1" id="castpic-1" src="./photos/launch1.jpeg">
-        <img class="castpic__2" id="castpic-2" src="./photos/launch2.jpeg">
-        <!-- <img class="earth" id="earth-2" src="./photos/earth.png">
-        <img class="rocket" id="rocket-1" src="./photos/rocket.png"> -->
+        <blockquote class="cast_heading" id="cast-heading">Cast<span></span></blockquote>  
+        <div id="cast-container1">
+            <img id="override-img1" src="./photos/launch1.jpeg" alt="Your Image">
+            <blockquote class="cast-name1" id="masterpiece-heading">Abraiz<span></span></blockquote>
+            <blockquote class="cast_text1" id="cast-text">Cool text for cast section. Lorem ipsum dolor sit amet, consectetur adipiscing elit<span></span></blockquote>
+        </div>
 
-        <!-- <div class="p-bar">
-            <img class="earth" id="prog-earth" src="./photos/earth.png">
-            <progress id="prog-bar" value="0" max="100"></progress>
-            <img class="mars" id="prog-mars" src="./photos/mars.png">
-        </div> -->
+        <div id="cast-container2">
+            <img id="override-img2" src="./photos/launch1.jpeg" alt="Your Image">
+            <blockquote class="cast-name2" id="masterpiece-heading">Majid<span></span></blockquote>
+            <blockquote class="cast_text2" id="cast-text">Cool text for cast section. Lorem ipsum dolor sit amet, consectetur adipiscing elit<span></span></blockquote>
+        </div>
+        
+        
+        <!-- <img class="castpic__1" id="castpic-1" src="./photos/launch1.jpeg">
+        <img class="castpic__2" id="castpic-2" src="./photos/launch2.jpeg"> -->
+
+
     </section>
 
 

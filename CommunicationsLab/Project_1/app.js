@@ -78,7 +78,8 @@ function updatePercentage3() {
 
 var tl4 = new TimelineMax({onUpdate:updatePercentage4});
 
-tl4.from('#blockquote-5', .5, {x:200, opacity: 0});
+tl4.from('#cast-container1', .5, {x:200, opacity: 0});
+tl4.from('#cast-container2', .5, {x:-200, opacity: 0});
 tl4.from('#blockquote-6', .5, {x:200, opacity: 0});
 tl4.from('#cruise-pic1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-1");
 tl4.from('#cruise-pic2', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.7");
@@ -125,6 +126,39 @@ function updatePercentage5() {
 }
 
 /* --- code for GSAP and ScrollMagic ends here --- */
+
+// initializing 'teleport to mars' and 'game' buttons
+let button1;
+button1 = document.getElementById('button1');
+
+let button2;
+button2 = document.getElementById("button2").addEventListener("click", function() {
+  const target = document.querySelector("#video-div");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+
+let button3;
+button3 = document.getElementById("button3").addEventListener("click", function() {
+  const target = document.querySelector("#storypic-2");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+
+// function to scroll down to the last page where Curiosity is shown on Mars
+function teleportToCast() {
+  window.scrollTo({
+    top: 70000,
+    left: 100,
+    behavior: 'smooth'
+  });
+}
+
+function teleportToVideo() {
+  window.scrollTo({
+    top: 2700,
+    left: 100,
+    behavior: 'smooth'
+  });
+}
 
 
 
