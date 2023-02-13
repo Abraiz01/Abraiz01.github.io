@@ -422,6 +422,15 @@ img {
     top: 40vh;   
 }
 
+#placeholder-1 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 70vw;
+    top: 90vh;
+    opacity: 0;
+}
+
 #rocket-1 {
     border: none;
     width: 12vw;
