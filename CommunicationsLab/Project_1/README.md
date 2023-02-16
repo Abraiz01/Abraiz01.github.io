@@ -1,11 +1,11 @@
-# Project #1 - COmmunications Lab
+# Project #1 - Communications Lab
 Project #1 using HTML, CSS, and JavaScript
 
 [30 MFF](https://abraiz01.github.io/CommunicationsLab/Project_1/index.html)
 
 ## Description:
 
-“Chase”, an online multiplayer game, is really the first project in which I implemented both front-end (HTML CSS and JavaScript), and back-end web development using Node, Express, and socket io. The idea of the game is simple: collect ten “feathers” as soon as possible without running out of lives. The game ends when either a player runs out of lives, or a player collects ten feathers and wins. The character “Faiza the Falcon”, NYUAD’s very own mascot, is controlled by the player using the arrow keys, while an enemy (that resembles a scary bat) follows Faiza at all times. Each player has their own enemy bat that always follows them and in case the bat manages to collide with the player, they lose one life. Each player has a total of three lives to play with. <br/><br/>
+During our first class at Communications Lab, we were asked to pair up with a partner from class and we were given 30 minutes to come up with an idea for a 90-second video, shoot it, and edit it - The 30 Minute Film Festival (30MFF). It was quite a lot of stuff to do in 30 minutes but me and my partner Majid managed to come up with our "masterpiece" at the end. Our task for this assignment was to create a website for our 30MFF video using HTML, CSS, and JavaScript. <br/><br/>
 
 
 <p align="center">
