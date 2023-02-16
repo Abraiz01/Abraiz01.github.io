@@ -1,4 +1,3 @@
-
 /* --- code for GSAP and ScrollMagic starts here --- */
 
 // storing window height and width in their respective variables
@@ -16,21 +15,6 @@ var tl2 = new TimelineMax({onUpdate:updatePercentage2});
 // creating a controller object that would control the scenes for each timeline
 // the scenes for each page define the scrolling activity of that page
 const controller = new ScrollMagic.Controller();
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    document.getElementById("back-to-top").style.display = "block";
-  } else {
-    document.getElementById("back-to-top").style.display = "none";
-  }
-}
-
-document.getElementById("back-to-top").addEventListener("click", function() {
-  const target = document.querySelector("#placeholder-2");
-  target.scrollIntoView({ behavior: "smooth" });
-});
 
 
 // creating tween instances and defining parameters for the initial state of the animated object,
@@ -61,7 +45,7 @@ function updatePercentage2() {
   // console.log(tl2.progress());
 }
 
-/* the same approach is followed for pages 3-5, 
+/* the same approach is followed for pages 3 and 4, 
  to avoid redundancy, comments for page 2 are not repeated, but pages are labelled
  when their code begins */
 
@@ -115,35 +99,13 @@ function updatePercentage4() {
   tl4.progress();
 }
 
-/* --- PAGE 5 --- */
-
-var tl5 = new TimelineMax({onUpdate:updatePercentage5});
-
-tl5.from('#blockquote-7', .5, {x:200, opacity: 0});
-tl5.from('#blockquote-8', .5, {x:200, opacity: 0});
-tl5.from('#land-1', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-1");
-tl5.from('#land-2', 1, {x:-200, opacity: 0, ease: Power4.easeInOut}, "=-.7");
-tl5.from('#cruise-2', 1, {y:-500, opacity: 0, ease: Power4.easeInOut}, "=-.7");
-
-const scene5 = new ScrollMagic.Scene({
-  triggerElement: "#page-5",
-            triggerHook: "onLeave",
-            duration: "100%"
-})
-  .setPin("#page-5")
-  .setTween(tl5)
-		.addTo(controller);
-
-
-function updatePercentage5() {
-  tl5.progress();
-}
-
 /* --- code for GSAP and ScrollMagic ends here --- */
 
-// initializing 'teleport to mars' and 'game' buttons
+// initializing buttons on the homescreen for story, video, and cast that 
+// will scroll to the respective pages when clicked
 let button1;
 button1 = document.getElementById("button1").addEventListener("click", function() {
+  // takes a target element inside the page to scroll to
   const target = document.querySelector("#cast-container2");
   target.scrollIntoView({ behavior: "smooth" });
 });
@@ -156,7 +118,27 @@ button2 = document.getElementById("button2").addEventListener("click", function(
 
 let button3;
 button3 = document.getElementById("button3").addEventListener("click", function() {
+  // scrolls to a placeholder at the bottom of the story page to avoid partial animations during scrolling
   const target = document.querySelector("#placeholder-1");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+
+// creating a scroll function for the back-to-top button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  // the button only appears after 300 pixels have been scrolled down
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
+// upon clicking the back-to-top button, the website scrolls back to the homepage
+// it takes an invisible placeholder at the top-left of the homepage as its reference of where to scroll to
+document.getElementById("back-to-top").addEventListener("click", function() {
+  const target = document.querySelector("#placeholder-2");
   target.scrollIntoView({ behavior: "smooth" });
 });
 
