@@ -12,6 +12,6 @@ During our first class at Communications Lab, we were asked to pair up with a pa
   <img 
     width="450"
     height="300"
-    src="https://github.com/Abraiz01/Connections-Lab/blob/main/Project2/public/images/screenshot.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/homepage.png"
   >
 </p>
