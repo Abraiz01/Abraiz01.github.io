@@ -26,7 +26,7 @@ I started off by making a basic wireframe of my website and then implementing th
   <img 
     width="450"
     height="300"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/homepage.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/wireframe-1.png"
   >
 </p>
 
