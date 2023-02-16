@@ -131,8 +131,8 @@ body {
 .story__1 {
     color: #F0E3E3;
     font-size: 1.5vw;    
-    left: 22vw;
-    top: 20vh;
+    left: 20vw;
+    top: 15vh;
     position: absolute;
     width: 40vw;
     margin: 0;
@@ -146,7 +146,7 @@ body {
     position: absolute;
     width: 40vw;
     margin: 0;
-    top: 50vh;
+    top: 45vh;
 }
 
 .story__3 {
@@ -419,19 +419,19 @@ img {
   
 .cast-button {
     right: 15vw;
-    top: 65vh;  
+    top: 30vh;  
     /* display: none; */
 }
 
 .video-button {
     right: 15vw;
-    top: 50vh;  
+    top: 45vh;  
     /* display: none; */
 }
 
 .story-button {
     right: 15vw;
-    top: 35vh;  
+    top: 60vh;  
     /* display: none; */
 }
 
