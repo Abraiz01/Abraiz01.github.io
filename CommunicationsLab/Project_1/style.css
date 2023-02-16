@@ -6,8 +6,8 @@ body {
   padding: 0;
   height: 100%;
   font-family: "Montserrat",Helvetica,Arial,sans-serif;;
-  color: #FFF;
-  background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4=');
+  color: #F0E3E3;
+  /* background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctNzMnIGs0PScuMDEnIC8+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjMDMwMzFhJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmZmZmJyBmaWx0ZXI9J3VybCgjbiknIG9wYWNpdHk9JzEnLz4KPHJlY3QgeD0nLTElJyB5PSctMSUnIHdpZHRoPScxMDIlJyBoZWlnaHQ9JzEwMiUnIGZpbGw9JyMwMzAzMWEnIGZpbHRlcj0ndXJsKCNpKScgb3BhY2l0eT0nMScvPgo8L3N2Zz4='); */
 }
 
 .page {
@@ -17,21 +17,21 @@ body {
     box-sizing: border-box;
 }
 
-/* #page-1 {
-    background-color: antiquewhite;
+#page-1 {
+    background-color: #121212;
 }
 
 #page-2 {
-    background-color: antiquewhite;
+    background-color: #121212;
 }
 
 #page-3 {
-    background-color: antiquewhite;
+    background-color: #121212;
 }
 
 #page-4 {
-    background-color: antiquewhite;
-} */
+    background-color: #121212;
+}
 
 #back-to-top {
     display: none;
@@ -87,7 +87,7 @@ body {
 
 
 .title_0 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 10vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
@@ -101,7 +101,7 @@ body {
 }
 
 .abraiz_majid {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 2vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
@@ -115,7 +115,7 @@ body {
 }
 
 .story_heading {
-    color: #156991;
+    color: #8FD6E1;
     font-size: 5vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
@@ -129,7 +129,7 @@ body {
 }
 
 .story__1 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 1.5vw;    
     left: 22vw;
     top: 20vh;
@@ -140,7 +140,7 @@ body {
 }
 
 .story__2 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 1.5vw;    
     left: 34vw;
     position: absolute;
@@ -150,7 +150,7 @@ body {
 }
 
 .story__3 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 1.5vw;    
     left: 22vw;
     position: absolute;
@@ -159,22 +159,8 @@ body {
     top: 75vh;
 }
 
-.cast_heading {
-    color: #156991;
-    font-size: 5vw;  
-    /* border: 0.15vw solid white;
-    border-radius: 1.5vw;   */
-    right: 0vw;
-    top: 10vh;
-    position: absolute;
-    /* width: 5vw;
-    height: 10vh; */
-    margin: 0;
-    transform: rotate(-90deg);
-}
-
 .video_heading {
-    color: #156991;
+    color: #FFD369;
     font-size: 5vw;  
     /* border: 0.15vw solid white;
     border-radius: 1.5vw;   */
@@ -188,7 +174,7 @@ body {
 }
 
 .video-container {
-    color: #156991;
+    /* color: #156991; */
     font-size: 2vw;  
     /* border: 0.15vw solid white; */
     /* border-radius: 1.5vw;   */
@@ -202,11 +188,13 @@ body {
 }
 
 .video_text {
-    color: #156991;
-    font-size: 1.5vw;    
+    border-radius: 0.7vw;  
+    font-size: 1.5vw;   
+    text-align: center;
     left: 35vw;
     position: absolute;
     width: 30vw;
+    /* height: 5vh; */
     margin: 0;
     top: 85vh;
 }
@@ -229,8 +217,22 @@ body {
     left: 10vw;
 }
 
+.cast_heading {
+    color: #E94560;
+    font-size: 5vw;  
+    /* border: 0.15vw solid white;
+    border-radius: 1.5vw;   */
+    right: 0vw;
+    top: 10vh;
+    position: absolute;
+    /* width: 5vw;
+    height: 10vh; */
+    margin: 0;
+    transform: rotate(-90deg);
+}
+
 .cast-name1 {
-    color: #156991;
+    color: #E94560;
     font-size: 4vw;    
     left: 25vw;
     position: absolute;
@@ -240,7 +242,7 @@ body {
 }
 
 .cast_text1 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 1.5vw;    
     left: 25vw;
     position: absolute;
@@ -251,7 +253,7 @@ body {
 }
 
 .cast-name2 {
-    color: #156991;
+    color: #E94560;
     font-size: 4vw;    
     left: 25vw;
     position: absolute;
@@ -261,7 +263,7 @@ body {
 }
 
 .cast_text2 {
-    color: #156991;
+    color: #F0E3E3;
     font-size: 1.5vw;    
     left: 25vw;
     position: absolute;
@@ -327,7 +329,8 @@ img {
 
 .button {
     border: none;
-    color: #156991;
+    color: #DCDCDC;
+    background-color: #242424;
     padding: 1.5vh 1.5vw;
     text-align: center;
     text-decoration: none;
@@ -335,10 +338,26 @@ img {
     font-size: 1vw;
     margin: 5vh 5vw;
     cursor: pointer;
-    background-color: transparent;
-    border: 0.15vw solid #156991;
+    /* background-color: transparent; */
+    border: 0.15vw solid #242424;
     border-radius: 1.5vw;
     position: absolute;
+}
+
+#button1:hover{
+    background-color:#A93648;
+    color: #ffffff;
+    /* opacity: 0.7; */
+}
+
+#button2:hover{
+    background-color:#B7994F;
+    color: #ffffff;
+}
+
+#button3:hover{
+    background-color:#699BA3;
+    color: #ffffff;
 }
 
 /* styling elements inside page-1 */
@@ -396,20 +415,7 @@ img {
 
 /* Reference : https://www.geeksforgeeks.org/how-to-make-smooth-bounce-animation-using-css/ */
 
-#button1:hover{
-    background-color:#156991;
-    color: azure;
-}
 
-#button2:hover{
-    background-color:#156991;
-    color: azure;
-}
-
-#button3:hover{
-    background-color:#156991;
-    color: azure;
-}
   
 .cast-button {
     right: 15vw;
