@@ -33,14 +33,36 @@ body {
     background-color: antiquewhite;
 }
 
-/* styling the progress bar */
-#prog-bar{
-    height: 1vh;
-    width: 18vw;
+#back-to-top {
+    display: none;
     position: fixed;
-    right: 4.5vw;
-    top: 3.5vh;
-    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  
+  #back-to-top:hover {
+    opacity: 1;
+  }
+
+  #placeholder-2 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 0vw;
+    top: 0vh;
+    margin: 0%;
+    opacity: 0;
 }
 
 /* progress bar's Earth */
@@ -168,7 +190,7 @@ body {
 .video-container {
     color: #156991;
     font-size: 2vw;  
-    border: 0.15vw solid white;
+    /* border: 0.15vw solid white; */
     /* border-radius: 1.5vw;   */
     left: 20vw;
     top: 10vh;

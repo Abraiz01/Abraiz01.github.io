@@ -17,6 +17,36 @@ var tl2 = new TimelineMax({onUpdate:updatePercentage2});
 // the scenes for each page define the scrolling activity of that page
 const controller = new ScrollMagic.Controller();
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
+document.getElementById("back-to-top").addEventListener("click", function() {
+  const target = document.querySelector("#placeholder-2");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+
+// var btn = $('#button');
+
+// $(window).scroll(function() {
+//   if ($(window).scrollTop() > 300) {
+//     btn.addClass('show');
+//   } else {
+//     btn.removeClass('show');
+//   }
+// });
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
 // creating tween instances and defining parameters for the initial state of the animated object,
 // its speed, timing, opacity, and direction of motion
 tl2.from('#story-1', .5, {x:200, opacity: 0});
