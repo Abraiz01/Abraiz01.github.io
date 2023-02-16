@@ -20,15 +20,32 @@ Being a big fan of Dark Theme, I thought why not go on implementing that in my f
 
 ## Process:
 
-I started off by making a basic wireframe of my website and then implementing that in HTML and CSS. Then I went on to add placeholder text and images to the skeleton of my webpage so I could go on to start working on the scrolling animation part of my website. The wireframe I drew before making the website is shown below:
+I started off by making a basic wireframe of my website and then implementing that in HTML and CSS. Then I went on to add placeholder text and images to the skeleton of my webpage so I could go on to start working on the scrolling animation part of my website. The wireframe of the 4 pages that made up my website are shown below:
 
 <p align="center">
   <img 
     width="450"
-    height="300"
+    height="600"
     src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/wireframe-1.png"
   >
+  <img 
+    width="450"
+    height="600"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/wireframe-2.png"
+  >
 </p>
+
+When all the divs and elements of my webpage were placed where I wanted them, I started working on the scrolling animations. I tend to spend more time working on the final theme of my website so I left that at the end so I could focus on getting the scrolling animations right first. To implement the animations, I made use of a combination of [Greensock] and [Scrollmagic] JavaScript libraries along with some help from a few YouTube videos which are mentioned in the [References] section.The main challenge I faced here was to figure out how each attribute in the library functioned. Once I was able to do that, I reproduced the idea to create animations throughout the entire website. For instance, in the following code snippet:
+
+```js
+  tl2.from('#story-1', .5, {x:200, opacity: 0});
+```
+
+The ‘story-1’ object will appear for a duration of 0.5 units, 200 pixels from the right of the final position where the object is to be placed, and it’s opacity will increase from 0 to 1 as the user scrolls through the website. I added vertical and horizontal scrolling animations for various elements on my website in the same way and kept on reproducing the results. The idea was a bit hard to grasp at first since implementing something like this was new to me, but once I got the hang of it, everything tuirned out exactly as I wanted it to be.
+
+When the scrolling animations were set, all I had to do was to place the real text and images in place of the placeholder elements and then finalize the theme of the website. Once I was done placing my elements using HTML and CSS, I looked up several websites to come up with a suitable dark theme for my website. Then I came across a very helpful section on [Material UI](https://m2.material.io/design/color/dark-theme.html)'s website. Not only does it make us familiar with the color schema that is followed by most dark-themed websites, it provides the logic behind them as well. I found this site very useful. I used it to choose the background color and title color schema for my website. At the end, I believe my website gives the vibe of a well designed, standard dark-themed page. I got to know that the standard background for dark-themed apps is #121212 and that the rest of the elements have a lighter grey with more opacity so that they would appear to pop into the window.
+
+Another small but very important part of my website was the scroll-to-top button.
 
 
 ## Reflection / Evaluation:
