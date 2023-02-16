@@ -32,20 +32,6 @@ document.getElementById("back-to-top").addEventListener("click", function() {
   target.scrollIntoView({ behavior: "smooth" });
 });
 
-// var btn = $('#button');
-
-// $(window).scroll(function() {
-//   if ($(window).scrollTop() > 300) {
-//     btn.addClass('show');
-//   } else {
-//     btn.removeClass('show');
-//   }
-// });
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
 
 // creating tween instances and defining parameters for the initial state of the animated object,
 // its speed, timing, opacity, and direction of motion
