@@ -7,7 +7,7 @@ Project #1 using HTML, CSS, and JavaScript
 
 During our first class at Communications Lab, we were asked to pair up with a partner from class and we were given 30 minutes to come up with an idea for a 90-second video, shoot it, and edit it - The 30 Minute Film Festival (30MFF). It was quite a lot of stuff to do in 30 minutes but me and my partner Majid managed to come up with our "masterpiece" at the end. Our task for this assignment was to create a website for our 30MFF video using HTML, CSS, and JavaScript. 
 
-Being a big fan of Dark Theme, I thought why not go on implementing that in my first website for this class. I feel like it gives a very professional feel to a weebsite and it really adds to the "cinematic" theme that I was going for in this project. For that, I was very careful in choosing the right colors for the dark theme so that it neither becomes too overwhelming nor very subtle. Once I got a hang of the theme, I decided that the kind of user interactions I was going to implement on my website were scrolling animations. I am always intrigued by websites that make good use of scrolling animations like the one at [Dbrand](https://dbrand.com/) or [Apple](https://www.apple.com/iphone-14-pro/), and I thought I'd go on and implement that in my own website as well to make the website's experience appear more smooth and professional.<br/><br/>
+Being a big fan of Dark Theme, I thought why not go on implementing that in my first website for this class. I feel like it gives a very professional feel to a weebsite and it really adds to the "cinematic" theme that I was going for in this project. For that, I was very careful in choosing the right colors for the dark theme so that it neither becomes too overwhelming nor very subtle. Once I got a hang of the theme, I decided that the kind of user interactions I was going to implement on my website were scrolling animations. I am always intrigued by websites that make good use of scrolling animations like the one at [Dbrand](https://dbrand.com/) or [Apple](https://www.apple.com/iphone-14-pro/), and I thought I'd go on and implement that in my own website as well to make the website's experience appear more smooth and professional. Furthermore, I wanted to give a sarcastiic, funny feel to the story of our film as well so I crafted the stories and cast descriptions in that manner as well.<br/><br/>
 
 
 <p align="center">
@@ -69,4 +69,8 @@ document.getElementById("back-to-top").addEventListener("click", function() {
 ```
 
 ## Reflection / Evaluation:
+
+My initial concept for this project was to make a website for our film that would have a funny story and sarcastic feel to it while also maintaining a balance of looking professional and being smooth to use as well. I am very happy with how the dark theme turned out and how everything in the website feels like it was supposed to be there, like the scroll to top button. However, most of all, I think the scrolling animations really made the website come to life and these were exactly the kind of animations I was going for initially as well. 
+
+I feel like this website was a good foundational project to start with. There is a lot more I can build upon it as well. Next time, I would like to learn and add more user interactions, experiment with more themes, and pay more attention to small details like button animations when they are clicked, and making use of front-end libraries like BootStrap to make positioning of elements easier.
 
