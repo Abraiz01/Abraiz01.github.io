@@ -1,7 +1,7 @@
 # Project #1 - Communications Lab
 Project #1 using HTML, CSS, and JavaScript
 
-[30 MFF](https://abraiz01.github.io/CommunicationsLab/Project_1/index.html)
+Working Link: [Transitions](https://abraiz01.github.io/CommunicationsLab/Project_1/index.html)
 
 ## Description:
 
