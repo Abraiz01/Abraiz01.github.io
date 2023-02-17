@@ -45,8 +45,28 @@ The ‘story-1’ object will appear for a duration of 0.5 units, 200 pixels fro
 
 When the scrolling animations were set, all I had to do was to place the real text and images in place of the placeholder elements and then finalize the theme of the website. Once I was done placing my elements using HTML and CSS, I looked up several websites to come up with a suitable dark theme for my website. Then I came across a very helpful section on [Material UI](https://m2.material.io/design/color/dark-theme.html)'s website. Not only does it make us familiar with the color schema that is followed by most dark-themed websites, it provides the logic behind them as well. I found this site very useful. I used it to choose the background color and title color schema for my website. At the end, I believe my website gives the vibe of a well designed, standard dark-themed page. I got to know that the standard background for dark-themed apps is #121212 and that the rest of the elements have a lighter grey with more opacity so that they would appear to pop into the window.
 
-Another small but very important part of my website was the scroll-to-top button.
+Another small but very important part of my website was the scroll-to-top button. For this, I created a `scrollFunction()` that detects when the user has scrolled past 300 pixels vertically, and when they have, it makes the scroll button visible. I did this since I didn't want the scroll to top button visible on the homepage since it had no use there.
 
+```js
+
+function scrollFunction() {
+  // the button only appears after 300 pixels have been scrolled down
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+```
+
+Then I went on to implement the actual scrolling by getting the scroll button and making it scroll to the topmost placeholder element when clicked. I used an invisible placeholder so that it would make sure it scrolls to the very top.
+
+```js
+document.getElementById("back-to-top").addEventListener("click", function() {
+  const target = document.querySelector("#placeholder-2");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+```
 
 ## Reflection / Evaluation:
 
