@@ -14,7 +14,7 @@ Being a big fan of Dark Theme, I thought why not go on implementing that in my f
   <img 
     width="450"
     height="300"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/Project_1/photos/homepage.png"
+    src=""
   >
 </p>
 
