@@ -123,7 +123,7 @@ button3 = document.getElementById("button3").addEventListener("click", function(
   target.scrollIntoView({ behavior: "smooth" });
 });
 
-// creating a scroll function for the back-to-top button
+// calling the scroll function for the back-to-top button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
