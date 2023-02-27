@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 764.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e59a9a;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f2bf99;
+      }
+
+      .cls-4 {
+        fill: #e6dbd1;
+      }
+
+      .cls-5 {
+        fill: #fdfdfd;
+      }
+
+      .cls-6 {
+        fill: #665b52;
+      }
+
+      .cls-7 {
+        fill: #6c6259;
+      }
+
+      .cls-8 {
+        fill: #9e8570;
+      }
+
+      .cls-9 {
+        fill: #ba9e86;
+      }
+
+      .cls-10 {
+        fill: #a58874;
+      }
+
+      .cls-11 {
+        fill: #bbb0a7;
+      }
+
+      .cls-12 {
+        fill: #c7d6ba;
+      }
+    </style>
+  </defs>
+  <rect class="cls-12" y="430.36" width="1440" height="334"/>
+  <path class="cls-2" d="m1119.05,95.57l-23.5,23.9,37.85,26.16,37.53-16.64-8.25-28.77-43.63-4.65Z"/>
+  <path class="cls-2" d="m821.04,6.56l-10.48,21.26,31.21,9.16,21.5-19.5-11.92-17.48-30.32,6.56Z"/>
+  <rect class="cls-4" x="860" y="404.36" width="152" height="99"/>
+  <path class="cls-6" d="m1044.64,415.36h-191.62c-8.87,0,13.21-59,32.21-59h114.22c27.14,0,52.79,59,45.18,59Z"/>
+  <path class="cls-10" d="m1026.59,415.36h-186.2c-8.77,0,26.11-59,44.91-59h98.29c26.86,0,50.52,59,43,59Z"/>
+  <path class="cls-11" d="m1023,481.92l-13,21.45v-88h13v66.55Z"/>
+  <path class="cls-7" d="m935,457.36c-13.06,0-18.51,8.95-17.97,46,0,0,0,0,0,0h37.96s0,0,0,0c-1.63-35.51-5.66-46-20-46Z"/>
+  <circle class="cls-2" cx="944.5" cy="482.36" r="4"/>
+  <circle class="cls-5" cx="898.5" cy="445.86" r="18.5"/>
+  <circle class="cls-11" cx="898.5" cy="445.86" r="13.5"/>
+  <path class="cls-8" d="m801,378.36h12v99.79l-12,4.21v-104Z"/>
+  <path class="cls-3" d="m789.13,369.34l-9.81,31.24,38.32,7.81,19.8-19.8-25.25-31.78-23.07,12.53Z"/>
+  <path class="cls-9" d="m765,399.36h12v105l-12-5.79v-99.21Z"/>
+  <path class="cls-1" d="m745.48,385.83l-11.91,37.93,46.53,9.48,24.04-24.04-30.65-38.59-28.01,15.22Z"/>
+  <circle class="cls-5" cx="976.46" cy="445.58" r="18.5"/>
+  <circle class="cls-11" cx="976.46" cy="445.58" r="13.5"/>
+</svg>
