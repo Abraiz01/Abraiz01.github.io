@@ -1,4 +1,4 @@
-# Project #1 - Communications Lab
+# Project #1 - Transitions
 Project #1 using HTML, CSS, and JavaScript
 
 Working Link: [Transitions](https://abraiz01.github.io/CommunicationsLab/Project_1/index.html)
