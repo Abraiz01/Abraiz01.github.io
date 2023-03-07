@@ -29,12 +29,33 @@ img {
 
 /* styling elements inside page-1 title page */
 
-#sadmin-pic {
-    width: 40vw;
-    height: 80vh;
+#bottle-pic {
+    /* width: 40vw; */
+    height: 90vh;
     position: absolute;
-    top: 15vh;
+    top: 7vh;
     left: 5vw;
+}
+
+#scroll-button {
+    width: 6vw;
+    display: inline;
+    right: 10vw;
+    bottom: 10vh;
+
+    animation: bounce 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
 }
 
 #listening-pic {
@@ -47,16 +68,50 @@ img {
 
 #quote1 {
     position: absolute;
-    left: 5vw;
-    top: 5vh;
+    right: 20vw;
+    top: 50vh;
     font-size: 20px;
 }
 
 #quote2 {
     position: absolute;
     right: 5vw;
-    top: 5vh;
+    bottom: 20vh;
     font-size: 20px;
+}
+
+#crushedbottle-pic {
+    height : 20vw;
+    top : 40vh;
+    left : 30vw;
+}
+
+#crushedbottle-pic2 {
+    height : 8vw;
+    position: absolute;
+    top : 65vh;
+    left : 50vw;
+}
+
+#splitbottle {
+    height : 35vw;
+    position: absolute;
+    top : 25vh;
+    left : 32vw;
+}
+
+#grave {
+    height : 45vw;
+    position: absolute;
+    top : 10vh;
+    left : 15vw;
+}
+
+#grassground {
+    width : 100vw;
+    margin: 0px;
+    /* top : 40vh; */
+    left : 0vw;
 }
 
 /* styling elements inside page-1 title page */
@@ -71,7 +126,7 @@ img {
 
 
 #quote3 {
-    position: absolute;
+    /* position: absolute; */
     font-size: 20px;
     right: 15vw;
     top: 40vh;
@@ -80,12 +135,36 @@ img {
 
 /* styling elements inside page-1 title page */
 
-#summon-pic {
-    width: 40vw;
+.city {
     height: 80vh;
     position: absolute;
+    /* margin: auto; */
     top: 10vh;
-    left: 5vw;
+    left: 15vw;
+}
+
+#city3 {
+    height: 80vh;
+    position: absolute;
+    /* margin: auto; */
+    top: 3vh;
+    left: 15vw;
+}
+
+.beach {
+    height: 80vh;
+    position: absolute;
+    /* margin: auto; */
+    top: 10vh;
+    left: 15vw;
+}
+
+#seagulls {
+    /* height: 80vh; */
+    position: absolute;
+    /* margin: auto; */
+    top: -8vh;
+    /* left: 15vw; */
 }
 
 
