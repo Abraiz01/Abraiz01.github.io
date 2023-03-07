@@ -1,0 +1,144 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;;
+  background-color: #e1e1e1;
+}
+
+img {
+    border-radius: 1.5vw;
+    position: absolute;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.page {
+    padding: 2%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #e1e1e1;
+}
+
+/* styling elements inside page-1 title page */
+
+#sadmin-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+}
+
+#listening-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    right: 2vw;
+    top: 15vh;
+}
+
+#quote1 {
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    font-size: 20px;
+}
+
+#quote2 {
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    font-size: 20px;
+}
+
+/* styling elements inside page-1 title page */
+
+#idea-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+}
+
+
+#quote3 {
+    position: absolute;
+    font-size: 20px;
+    right: 15vw;
+    top: 40vh;
+}
+
+
+/* styling elements inside page-1 title page */
+
+#summon-pic {
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+
+
+#quote4 {
+    position: absolute;
+    font-size: 20px;
+    right: 10vw;
+    top: 50vh;
+}
+
+/* styling elements inside page-1 title page */
+
+#reach-pic {
+    width: 50vw;
+    height: 90vh;
+    position: absolute;
+    top: 15vh;
+    left: 22vw;
+}
+
+
+#quote5 {
+    position: absolute;
+    font-size: 25px;
+    left: 25vw;
+    top: 3vh;
+}
+
+/* styling elements inside page-1 title page */
+
+#happy-pic {
+    width: 40vw;
+    height: 70vh;
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+}
+
+#excited-pic {
+    width: 50vw;
+    height: 90vh;
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+}
+
+
+#quote6 {
+    position: absolute;
+    font-size: 22px;
+    left: 22vw;
+    top: 10vh;
+}
+
+
+
