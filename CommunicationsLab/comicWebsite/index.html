@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minions</title>
+    <title>Bottle</title>
     <link href="style.css" rel="stylesheet"/>
 </head>
 
@@ -16,6 +16,9 @@
         <blockquote id="quote1">Click to Drink</blockquote>  
           <!-- bottle img should be a button -->
         <img id="bottle-pic" src="./photos/normalbottle.png">
+        <audio id="crinkle">
+            <source src="sounds/crinkling-plastic.mp3" type="audio/mpeg">
+        </audio>
     </section>
 
     <!-- section containing elements of the second page -->
@@ -23,9 +26,11 @@
         <p id="placeholder-1"></p>
         <blockquote id="quote2">Scroll to Throw</blockquote>
         <img id="scroll-button" src="photos/scrollButton.png"></img>
-        <img id="grassground" src="./photos/grass ground.png">
-        
+        <img id="grassground" src="./photos/grass ground.png">       
         <img id="crushedbottle-pic" src="./photos/bottle-laying.png">
+        <audio id="whoosh">
+            <source src="sounds/whoosh.mp3" type="audio/mpeg">
+        </audio>
         
     </section>
 
@@ -33,21 +38,24 @@
     <section class="page" id="page-3">
         <img class="city" id="city-background" src="./photos/background for cities.png">
         <img class="city" id="city1" src="./photos/modern city.png">
-        <blockquote id="quote3">Using his superpowers, Dave summons a few bananas</blockquote>
+        <blockquote id="quote3" class="textbox">Oh no, where am I? This place is so smelly. I don't like it here. Why did someone throw me away?  </blockquote>
+        <img class="show-button" id="button1" onclick="addtext1()" src="./photos/button.png">
     </section>
 
     <!-- section containing elements of the fourth page -->
     <section class="page" id="page-4">
         <img class="city" id="city-background2" src="./photos/background for cities.png">
         <img class="city" id="city2" src="./photos/more modern.png">
-        <blockquote id="quote4">Using his superpowers, Dave summons a few bananas</blockquote>
+        <blockquote id="quote4" class="textbox">It's been a while now, hasn't it? I wonder if anyone even remembers me. But it's okay. I'll just keep enjoying the quiet here. </blockquote>
+        <img class="show-button" id="button2" onclick="addtext2()" src="./photos/button.png">
     </section>
 
     <!-- section containing elements of the fifth page -->
     <section class="page" id="page-5">
         <img class="city" id="city-background3" src="./photos/background for cities.png">
         <img id="city3" src="./photos/most modern.png">
-        <blockquote id="quote5">Using his superpowers, Dave summons a few bananas</blockquote>
+        <blockquote id="quote5" class="textbox">So many years have passed and I am still here.</blockquote>
+        <img class="show-button" id="button3" onclick="addtext3()" src="./photos/button.png">
     </section>
 
     <!-- section containing elements of the sixth page -->
@@ -55,15 +63,35 @@
         <img class="beach" id="beach-bg" src="./photos/beachbg.png">
         <img id="seagulls" src="./photos/seagulls.png">
         <img id="crushedbottle-pic2" src="./photos/bottle-laying.png">
-        <blockquote id="quote5">Using his superpowers, Dave summons a few bananas</blockquote>
+        <blockquote id="quote6" class="textbox">What's happening? I'm washed up now, and the sea is not like it was before. It's not clean or clear. I don't like it here either. And look at me! I used to be so bright and colorful, but now I'm just dirty and faded. </blockquote>
+        <blockquote id="quote7" class="textbox">This is it, isn't it? This is where I end up, surrounded by other garbage and being picked apart by birds. I wish I could go back to that field where I was happy. </blockquote>
+        <img class="show-button" id="button4" onclick="addtext4()" src="./photos/button.png">
     </section>
 
     <!-- section containing elements of the seventh page -->
     <section class="page" id="page-7">
-        <img class="beach" id="beach-bg" src="./photos/beachbg.png">
+        <img class="beach" id="beach-bg2" src="./photos/beachbg.png">
         <img id="grave" src="./photos/seagull grave.png">
         <img id="splitbottle" src="./photos/split bottle.png">
-        <blockquote id="quote5">Using his superpowers, Dave summons a few bananas</blockquote>
+        <!-- <blockquote id="quote5">Using his superpowers, Dave summons a few bananas</blockquote>
+        <img class="show-button" id="button5" src="./photos/button.png"> -->
+    </section>
+
+    <!-- section containing elements of the eigth page -->
+    <section class="page" id="page-8">
+        <blockquote id="quote8">“In the end, the bottle never fulfilled its purpose of helping to sustain life. It was left to decompose, a symbol of how easily we can take for granted the resources we have and how important it is to recycle and take care of our planet.”</blockquote>
+        <!-- final quote comes here -->
+    </section>
+
+    <!-- section containing elements of the ninth page -->
+    <section class="page" id="page-9">
+        <img class="beach" id="infographic" src="./photos/infographic.png">
+        <img id="crushedbottle-pic3" src="./photos/bottle-laying.png">
+        <blockquote id="info1">It takes a plastic bottle at least 450 years to completely decompose.</blockquote>
+        <blockquote class="info" id="info2">Only 5% of plastic bottles are recycled globally.</blockquote>
+        <blockquote class="info" id="info3">Animals ingest plastic which ends up in landfills and bodies of water. The plastic waste is highly dangerous for our wildlife.</blockquote>
+        <blockquote class="info" id="info4">Bottled water requires 2000x the energy used to produce tap water.</blockquote>
+
     </section>
     
     <!-- libraries and modules -->

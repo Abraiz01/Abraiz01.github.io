@@ -1,11 +1,16 @@
 /* importing fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400');
 
+@font-face {
+    font-family: 'domino';
+    src: url('/fonts/domino.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Montserrat",Helvetica,Arial,sans-serif;;
+  font-family: 'domino';
   background-color: #e1e1e1;
 }
 
@@ -68,16 +73,17 @@ img {
 
 #quote1 {
     position: absolute;
+    font-size: 50px;
     right: 20vw;
     top: 50vh;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 #quote2 {
     position: absolute;
     right: 5vw;
     bottom: 20vh;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #crushedbottle-pic {
@@ -93,11 +99,25 @@ img {
     left : 50vw;
 }
 
+#crushedbottle-pic3 {
+    height : 15vw;
+    position: absolute;
+    top : 15vh;
+    left : 15vw;
+}
+
 #splitbottle {
     height : 35vw;
     position: absolute;
     top : 25vh;
     left : 32vw;
+}
+
+.show-button {
+    height : 20vw;
+    position: absolute;
+    /* top : 25vh;
+    left : 32vw; */
 }
 
 #grave {
@@ -125,11 +145,25 @@ img {
 }
 
 
-#quote3 {
-    /* position: absolute; */
-    font-size: 20px;
-    right: 15vw;
-    top: 40vh;
+/*  */
+
+.textbox {
+    display: none;
+    position: absolute;
+    width: 20vw;
+    /* height: ; */
+    font-size: 40px;
+    border: 10px solid black;
+    padding: 30px;
+    background-color: white;
+    top: 10vh;
+    left: 15vw;
+}
+
+#quote7 {
+    left: 65vw;
+    padding: 20px;
+    top: 23vh;
 }
 
 
@@ -168,12 +202,12 @@ img {
 }
 
 
-#quote4 {
+/* #quote4 {
     position: absolute;
     font-size: 20px;
     right: 10vw;
     top: 50vh;
-}
+} */
 
 /* styling elements inside page-1 title page */
 
@@ -186,11 +220,55 @@ img {
 }
 
 
-#quote5 {
+/* #quote5 {
     position: absolute;
     font-size: 25px;
     left: 25vw;
     top: 3vh;
+} */
+
+#quote8 {
+    position: absolute;
+    width: 55vw;
+    /* height: ; */
+    font-size: 40px;
+    border: 10px solid black;
+    padding: 50px;
+    background-color: white;
+    top: 25vh;
+    left: 15vw;
+}
+
+.info {
+    width: 20vw;
+    font-size: 25px;
+    text-align: center;
+    top: 65vh;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info1 {
+    width: 32vw;
+    font-size: 40px;
+    text-align: center;
+    top: 18vh;
+    left: 50vw;
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info2 {
+    left: 13vw;
+}
+
+#info3 {
+    left: 38vw;
+}
+
+#info4 {
+    left: 63vw;
 }
 
 /* styling elements inside page-1 title page */
@@ -212,12 +290,12 @@ img {
 }
 
 
-#quote6 {
+/* #quote6 {
     position: absolute;
     font-size: 22px;
     left: 22vw;
     top: 10vh;
-}
+} */
 
 
 

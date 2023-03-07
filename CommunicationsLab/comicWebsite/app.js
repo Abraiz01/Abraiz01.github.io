@@ -130,23 +130,89 @@ function updatePercentage5() {
 
 /* --- PAGE 6 --- */
 
-var tl6 = new TimelineMax({onUpdate:updatePercentage5});
+var tl6 = new TimelineMax({onUpdate:updatePercentage6});
 
-tl6.from('#city-background3', .5, {y:300, opacity: 0});
-tl6.from('#city3', .5, {y:200, opacity: 0});
+tl6.from('#beach-bg', .5, {y:300, opacity: 0});
+tl6.from('#crushedbottle-pic2', .5, {y:-200, opacity: 0});
+tl6.from('#seagulls', .5, {x:200, opacity: 0});
 
 const scene6 = new ScrollMagic.Scene({
-  triggerElement: "#page-5",
+  triggerElement: "#page-6",
             triggerHook: "onLeave",
             duration: "100%"
 })
-  .setPin("#page-5")
+  .setPin("#page-6")
   .setTween(tl6)
 		.addTo(controller);
 
 
-function updatePercentage5() {
+function updatePercentage6() {
   tl6.progress();
+}
+
+/* --- PAGE 7 --- */
+
+var tl7 = new TimelineMax({onUpdate:updatePercentage7});
+
+tl7.from('#beach-bg2', .5, {y:300, opacity: 0});
+tl7.from('#splitbottle', .5, {y:200, opacity: 0});
+tl7.from('#grave', .5, {x:200, opacity: 0});
+
+const scene7 = new ScrollMagic.Scene({
+  triggerElement: "#page-7",
+            triggerHook: "onLeave",
+            duration: "100%"
+})
+  .setPin("#page-7")
+  .setTween(tl7)
+		.addTo(controller);
+
+
+function updatePercentage7() {
+  tl7.progress();
+}
+
+/* --- PAGE 8 --- */
+
+var tl8 = new TimelineMax({onUpdate:updatePercentage8});
+
+tl8.from('#quote8', .5, {y:200, opacity: 0});
+
+const scene8 = new ScrollMagic.Scene({
+  triggerElement: "#page-8",
+            triggerHook: "onLeave",
+            duration: "100%"
+})
+  .setPin("#page-8")
+  .setTween(tl8)
+		.addTo(controller);
+
+
+function updatePercentage8() {
+  tl8.progress();
+}
+
+/* --- PAGE 9 --- */
+
+var tl9 = new TimelineMax({onUpdate:updatePercentage9});
+
+tl9.from('#crushedbottle-pic3', .5, {y:-200, opacity: 0});
+tl9.from('#info1', .5, {y:-300, opacity: 0});
+tl9.from('#infographic', .5, {y:300, opacity: 0});
+tl9.from('.info', .5, {y:300, opacity: 0});
+
+const scene9 = new ScrollMagic.Scene({
+  triggerElement: "#page-9",
+            triggerHook: "onLeave",
+            duration: "100%"
+})
+  .setPin("#page-9")
+  .setTween(tl9)
+		.addTo(controller);
+
+
+function updatePercentage9() {
+  tl9.progress();
 }
 
 // /* --- code for GSAP and ScrollMagic ends here --- */
@@ -155,7 +221,36 @@ var image = document.getElementById("bottle-pic");
 // image.addEventListener("click", changeImage);
 
 var scrollButton = document.getElementById("scroll-button");
+var crinkle = document.getElementById("crinkle");
+var whoosh = document.getElementById("whoosh");
+var reached = false;
+let prevScrollPos = window.scrollY;
+let goingUp = false;
 
+
+document.addEventListener('scroll', function() {
+  var yScroll = window.scrollY;
+  console.log(yScroll);
+
+  if (prevScrollPos > yScroll) {
+    goingUp = true;
+    console.log(goingUp);
+  }
+  else {
+    goingUp = false;
+    console.log(goingUp);
+  }
+
+  if (yScroll >= 1100 && yScroll <= 1120 && !reached) {
+    console.log("inside if");
+    whoosh.play();
+    // reached = true;
+  }
+
+
+
+
+});
 
 // function changeImage() {
 //   var image = document.getElementById("bottle-pic");
@@ -174,7 +269,74 @@ var scrollButton = document.getElementById("scroll-button");
 document.getElementById("bottle-pic").addEventListener("click", function() {
   const target = document.querySelector("#placeholder-1");
   target.scrollIntoView({ behavior: "smooth" });
+  crinkle.play();
 });
+
+var button1 = document.getElementById("button1");
+var button1display = false;
+
+function addtext1() {
+  var textbox = document.getElementById("quote3");
+  if(!button1display){
+    textbox.style.display = "inline";
+    button1display = true;
+  }
+  else {
+    textbox.style.display = "none";
+    button1display = false;
+  }
+  
+}
+
+var button2 = document.getElementById("button2");
+var button2display = false;
+
+function addtext2() {
+  var textbox = document.getElementById("quote4");
+  if(!button2display){
+    textbox.style.display = "inline";
+    button2display = true;
+  }
+  else {
+    textbox.style.display = "none";
+    button2display = false;
+  }
+}
+
+var button3 = document.getElementById("button3");
+var button3display = false;
+
+function addtext3() {
+  var textbox = document.getElementById("quote5");
+  if(!button3display){
+    textbox.style.display = "inline";
+    button3display = true;
+  }
+  else {
+    textbox.style.display = "none";
+    button3display = false;
+  }
+}
+
+var button4 = document.getElementById("button4");
+var button4display = false;
+
+function addtext4() {
+  var textbox = document.getElementById("quote6");
+  var textbox2 = document.getElementById("quote7");
+  if(!button4display){
+    textbox.style.display = "inline";
+    textbox2.style.display = "inline";
+    button4display = true;
+  }
+  else {
+    textbox.style.display = "none";
+    textbox2.style.display = "none";
+    button4display = false;
+  }
+}
+
+
 
 
 
