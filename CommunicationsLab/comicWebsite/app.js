@@ -351,6 +351,25 @@ function addtext5() {
   }
 }
 
+// calling the scroll function for the back-to-top button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  // the button only appears after 300 pixels have been scrolled down
+  if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
+// upon clicking the back-to-top button, the website scrolls back to the homepage
+// it takes an invisible placeholder at the top-left of the homepage as its reference of where to scroll to
+document.getElementById("back-to-top").addEventListener("click", function() {
+  const target = document.querySelector("#placeholder-2");
+  target.scrollIntoView({ behavior: "smooth" });
+});
+
 
 
 

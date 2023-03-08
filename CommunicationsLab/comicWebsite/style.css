@@ -173,6 +173,39 @@ img {
     top: 23vh;
 }
 
+#placeholder-2 {
+    border: 0.15vw solid white;
+    position: absolute;
+    width: 10vw;
+    left: 0vw;
+    top: 0vh;
+    margin: 0%;
+    opacity: 0;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20%;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    background-image: url("./photos/up-arrowhead.png");
+  }
+  
+#back-to-top:hover {
+    opacity: 1;
+}
+
 
 /* styling elements inside page-1 title page */
 
