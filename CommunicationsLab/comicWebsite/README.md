@@ -16,8 +16,8 @@ The comic strives to create an emotional connection with the viewers, making the
 
 <p align="center">
   <img 
-    width="400"
-    height="300"
+    width="300"
+    height="200"
     src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/bottle-laying.png"
   >
 </p>
