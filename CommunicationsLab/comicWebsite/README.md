@@ -53,7 +53,7 @@ Decisions such as these which were made throughout the developing process made t
   <img 
     width="200"
     height="200"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/bottle-laying.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/grave.png"
   >
 </p>
 
