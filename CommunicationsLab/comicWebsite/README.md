@@ -1,4 +1,4 @@
-# Homework Week6 - Minions
-Week 6 Homework implementing scroll animations using HTML, CSS, and JavaScript
+# Project #2 - Comic Website
+Project #2 implementing scroll animations using HTML, CSS, and JavaScript
 
-Working Link: [Minions](https://abraiz01.github.io/CommunicationsLab/Homeworks/ScrollAnimation/index.html)
+Working Link: [Recycling](https://abraiz01.github.io/CommunicationsLab/comicWebsite/index.html)
