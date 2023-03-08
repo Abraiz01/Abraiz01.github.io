@@ -51,8 +51,8 @@ Decisions such as these which were made throughout the developing process made t
 
 <p align="center">
   <img 
-    width="200"
-    height="200"
+    width="150"
+    height="150"
     src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/grave.png"
   >
 </p>
