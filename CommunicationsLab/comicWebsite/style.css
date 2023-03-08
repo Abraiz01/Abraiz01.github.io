@@ -267,6 +267,14 @@ img {
     top: 3vh;
 } */
 
+#quote5-2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    left: 25vw;
+    top: 3vh;
+}
+
 #quote8 {
     position: absolute;
     width: 55vw;
