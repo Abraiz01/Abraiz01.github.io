@@ -336,6 +336,21 @@ function addtext4() {
   }
 }
 
+var button5 = document.getElementById("button5");
+var button5display = false;
+
+function addtext5() {
+  var textbox = document.getElementById("quote9");
+  if(!button5display){
+    textbox.style.display = "inline";
+    button5display = true;
+  }
+  else {
+    textbox.style.display = "none";
+    button5display = false;
+  }
+}
+
 
 
 
