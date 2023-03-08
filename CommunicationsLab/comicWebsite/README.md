@@ -14,6 +14,14 @@ The comic's ultimate goal is to create an engaging and educational experience fo
 The comic strives to create an emotional connection with the viewers, making them understand the harm that plastic bottles cause to the environment. It aims to create a sense of responsibility among users to dispose of plastic bottles properly and encourages them to adopt sustainable practices in their everyday lives.
 <br/><br/>
 
+<p align="center">
+  <img 
+    width="450"
+    height="300"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/bottle-laying.png"
+  >
+</p>
+
 ## Process
 
 ### Coding 
