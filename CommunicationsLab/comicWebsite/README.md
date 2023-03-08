@@ -40,6 +40,14 @@ Hana: Script writing, planning out panels, Coding html, css, javascript.<br/>
 Moeez: Script writing, planning out panels, Illustrator<br/>
 Snehil: Script writing, planning out panels, Illustrator <br/><br/>
 
+<p align="center">
+  <img 
+    width="500"
+    height="350"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/beach background.png"
+  >
+</p>
+
 ## Reflection/Evaluation
 
 We kept the initial planning quite minimalistic in terms of the wireframe. We began with only the idea of the panels and the script, and then we decided to make the website as we saw fit once we started programming. We fleshed out the panels quite well before we started coding and this helped us a lot since when it came to the coding we had the story and panels planned out, we simply needed to implement them. We initially only had the first 2 panels be interactive with sound and clicking, but after some reflection, we decided to focus our storytelling mostly through the pictures. We got the idea from “Understanding Comics: the Invisible Art” by Scott McCloud, in chapter 6 “Show and Tell” one of the ideas he mentions is about how comics should tell a lot of the story through pictures and not text - hence they need to “show” what is happening and not just “tell” it, hence why we decided to implement buttons to add and remove the text as the user sees fit. We ensured that the idea can be perceived without any text at all, but that the text is also not useless and that it adds a lot of emotional charge to the story itself. Another reason why we decided to put so much work into creating the artwork was because we all come from Computer Science background, and we are taking this class to challenge ourselves creatively and to develop the creative side of our career field, that is why we pushed ourselves to rely so much on the artwork itself, and keep the website design minimalistic. Most of the coding work went into adding onto the artwork itself - such as adding sounds, ‘slide in’ and layering effects, and interactive buttons.
@@ -48,6 +56,8 @@ We faced a few challenges while working with the libraries, which had to be solv
 
 Another challenge we faced was to keep consistency in our paintings, which is why we decided to divide each item into layers and reuse the same items in the panels to keep consistency. This also later helped with the “slide in and out” effects on the website, where we had to make decisions to where the focus of the user should be. We used the effect to draw the attention to the necessary items that needed to stick out in that particular panel.
 Decisions such as these which were made throughout the developing process made the transition from just panels or just a story to a web-based comic. The story itself is intentionally emotional, because the message is one that we hope sticks with the user and encourages them to make better decisions for our environment going forward. 
+
+<br/>
 
 <p align="center">
   <img 
