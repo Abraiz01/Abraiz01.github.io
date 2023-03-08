@@ -49,4 +49,11 @@ We faced a few challenges while working with the libraries, which had to be solv
 Another challenge we faced was to keep consistency in our paintings, which is why we decided to divide each item into layers and reuse the same items in the panels to keep consistency. This also later helped with the “slide in and out” effects on the website, where we had to make decisions to where the focus of the user should be. We used the effect to draw the attention to the necessary items that needed to stick out in that particular panel.
 Decisions such as these which were made throughout the developing process made the transition from just panels or just a story to a web-based comic. The story itself is intentionally emotional, because the message is one that we hope sticks with the user and encourages them to make better decisions for our environment going forward. 
 
+<p align="center">
+  <img 
+    width="200"
+    height="200"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/bottle-laying.png"
+  >
+</p>
 
