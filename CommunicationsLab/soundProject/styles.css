@@ -1,0 +1,19 @@
+#uae-call {
+    display: none;
+    position: absolute;
+    width: 400px;
+    left: 35vw;
+    top: 2vh;
+}
+
+#phone-ringing {
+    /* display: none; */
+    position: absolute;
+    width: 400px;
+    left: 35vw;
+    top: 2vh;
+}
+
+#restart-button {
+    display: none;
+}
