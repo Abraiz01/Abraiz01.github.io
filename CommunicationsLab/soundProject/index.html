@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Scam</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- the phone screen -->
     <div class="phone">
-        <img src="./images/phone-home.png" alt="" />
-        <button id="unlock-button">unlock</button>
+      <img src="./images/phone-ringing.png" alt="" />
     </div>
-</body>
+    <img src="./images/phone-ringing.png" alt="" />
+    <button id="unlock-button">unlock</button>
+    <button id="attend-button">attend</button>
+    <audio id="ringtone" loop>
+      <source src="sounds/ringing.mp3" type="audio/mpeg" />
+    </audio>
+    <audio controls id="audio-scam" src="sounds/AudioScam.mp3"></audio>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
