@@ -15,7 +15,7 @@ The story follows the journey of a protagonist who is scammed by someone pretend
   <img 
     width="300"
     height="200"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/bottle-laying.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/attend.png"
   >
 </p>
 
@@ -54,7 +54,7 @@ In our opinion through "The Scam!" project we are pushing ourselves creatively b
   <img 
     width="150"
     height="150"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/grave.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/attend.png"
   >
 </p>
 
