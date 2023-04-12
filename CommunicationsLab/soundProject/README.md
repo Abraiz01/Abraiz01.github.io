@@ -3,6 +3,8 @@ Project #3 creating a sound-based story using Audacity, HTML, CSS, and JavaScrip
 
 Working Link: [Not a Scam](https://abraiz01.github.io/CommunicationsLab/soundProject/)
 
+Teammates: Aibar, Soumen, Abraiz, Tarek
+
 ## Project Description
 
 "Not a Scam" is a project that takes the form of a 2-3 minute sound piece designed to be hosted on a website. The overall concept of the project is to raise awareness about the dangers of online scamming by taking the listener on a journey that simulates a real-life experience of being scammed. The project aims to create an immersive experience that showcases the prevalence and impact of online scamming while also educating the audience on how to protect themselves against such scams. The theme of the project is centered around online scamming, a serious issue that has become increasingly prevalent in today's digital age. 
