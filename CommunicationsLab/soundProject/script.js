@@ -42,6 +42,7 @@ playButton.addEventListener("click", function () {
 
 audioScam.addEventListener("ended", function () {
   // Do something when the audio playback has ended
+  changeBackgroundImage('images/red-bg.jpg');
   console.log("Scam Audio ended");
   uaeCallImg.style.display = "none";
   lockscreen.style.display = "block";
@@ -59,6 +60,7 @@ audioScam.addEventListener("ended", function () {
 
 bankAudio.addEventListener("ended", function () {
   // Do something when the audio playback has ended
+  changeBackgroundImage('images/blue-bg.jpg');
   console.log("Bank Audio ended");
   dubaiCallImg.style.display = "none";
   playButton.style.display = "none";
@@ -84,3 +86,7 @@ document.getElementById("attend-button").addEventListener("click", function () {
   playButton.style.display = "block";
   audioScam.play();
 });
+
+function changeBackgroundImage(imageUrl) {
+    document.body.style.backgroundImage = `url(${imageUrl})`;
+}

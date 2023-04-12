@@ -1,99 +1,105 @@
+body {
+  background-image: url("images/green-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #uae-call {
-    display: none;
-    position: absolute;
-    width: 400px;
-    left: 35vw;
-    top: 2vh;
+  display: none;
+  position: absolute;
+  width: 400px;
+  left: 35vw;
+  top: 2vh;
 }
 
 #phone-ringing {
-    display: none;
-    position: absolute;
-    width: 400px;
-    left: 35vw;
-    top: 2vh;
+  display: none;
+  position: absolute;
+  width: 400px;
+  left: 35vw;
+  top: 2vh;
 }
 
 #lockscreen {
-    /* display: none; */
-    position: absolute;
-    width: 400px;
-    left: 35vw;
-    top: 2vh;
+  /* display: none; */
+  position: absolute;
+  width: 400px;
+  left: 35vw;
+  top: 2vh;
 }
 
 #dubai-call {
-    display: none;
-    position: absolute;
-    width: 400px;
-    left: 35vw;
-    top: 2vh;
+  display: none;
+  position: absolute;
+  width: 400px;
+  left: 35vw;
+  top: 2vh;
 }
 
 #restart-button {
-    display: none;
+  display: none;
 }
 
 #unlock-button {
-    border: 0.15vw solid rgb(255, 255, 255);
-    border-radius: 50%;
-    position: absolute;
-    width: 5vw;
-    height: 8vh;
-    left: 45.5vw;
-    top: 83vh;
-    opacity: 50%;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
+  border: 0.15vw solid rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  width: 5vw;
+  height: 8vh;
+  left: 45.5vw;
+  top: 83vh;
+  opacity: 50%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 #restart-button {
-    border: 0.15vw solid rgb(255, 255, 255);
-    border-radius: 40%;
-    position: absolute;
-    width: 5vw;
-    height: 7vh;
-    left: 45.5vw;
-    top: 83vh;
-    opacity: 50%;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
+  border: 0.15vw solid rgb(255, 255, 255);
+  border-radius: 40%;
+  position: absolute;
+  width: 5vw;
+  height: 7vh;
+  left: 45.5vw;
+  top: 83vh;
+  opacity: 50%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 #attend-button {
-    /* border: 0.15vw solid rgb(255, 255, 255);
+  /* border: 0.15vw solid rgb(255, 255, 255);
     border-radius: 40%; */
-    display: none;
-    border: none;
-    position: absolute;
-    width: 7vw;
-    height: 7vh;
-    left: 44.3vw;
-    top: 80vh;
-    /* opacity: 50%; */
-    background-color: transparent;
-    /* color: rgb(255, 255, 255); */
-    cursor: pointer;
+  display: none;
+  border: none;
+  position: absolute;
+  width: 7vw;
+  height: 7vh;
+  left: 44.3vw;
+  top: 80vh;
+  /* opacity: 50%; */
+  background-color: transparent;
+  /* color: rgb(255, 255, 255); */
+  cursor: pointer;
 }
 
 #bPlayPause {
-    /* border: 0.15vw solid rgb(255, 255, 255);
+  /* border: 0.15vw solid rgb(255, 255, 255);
     border-radius: 40%; */
-    display: none;
-    border: none;
-    position: absolute;
-    width: 7vw;
-    height: 7vh;
-    left: 44.8vw;
-    top: 76.5vh;
-    /* opacity: 50%; */
-    background-color: transparent;
-    /* color: rgb(255, 255, 255); */
-    cursor: pointer;
+  display: none;
+  border: none;
+  position: absolute;
+  width: 7vw;
+  height: 7vh;
+  left: 44.8vw;
+  top: 76.5vh;
+  /* opacity: 50%; */
+  background-color: transparent;
+  /* color: rgb(255, 255, 255); */
+  cursor: pointer;
 }
 
 #imgPlayPause {
-    width: 100%;
+  width: 100%;
 }
