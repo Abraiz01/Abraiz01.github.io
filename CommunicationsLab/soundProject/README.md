@@ -28,13 +28,17 @@ All of the dialogues were recorded as original sound pieces, which then were mod
 
 ### Design, UX, and Web Implementation 
 
-We decided to use JavaScript libraries (GSAP and Scrollmagic animation libraries)  because Abraiz had already used them for a previous homework, and we decided that using a library we are familiar with would be a good call both in terms of saving time, as well as a better look for the website itself. We divided each panel into its own ‘timeline’ and decided what needed to ‘slide in’ and when. We wanted to have the user interact with the website to develop the story, so we decided to make the user ‘drink’ and ‘throw’ the bottle so they can feel as though the story is a consequence to their action - adding to the message. The first scroll is activated by clicking the bottle, then the rest of the scrolls need to be done by the user (as instructed). Another interaction we added was the buttons to make the text appear and disappear as the user sees fit.
+There were certain design choices that we made during the creation of the website which we would like to highlight here. Firstly, we decided to make the website simple and easy to navigate so that the user could get the full experience without having to fiddle around too much or get distracted by unnecessary elements. The first screen is a simple phone with a button to unlock it which the user will eventually press, and once they press it, the phone screen changes to a ringing phone screen with a familiar silent-mode ringtone which the user will be compelled to attend. We made the audio loop for this part so that the user can only proceed if they attend the call. We implemented changing phone screens in this way to match with the audio that was playing and the current situation the story was in to progress though the website and make it as seemless as possible. Deciding to use the ubnlock button before the attend call button was done on purpose because we didn't want the user to experience any sound as soon as they landed on the first page, so we allowed them to unlock the phone first and then play the ringtone and subsequent audios. 
+
+Moreover, we also picked the background colors to match with the emotions of the customer who was being scammed. The initial green color was used to indicate they were calm and that everything was normal, the red background pops up after they get scammed and call their bank for help, indicating a sense of anxiousness. The blue color at the final stage indicates sadness after the customer got scammed.
+
+Finally, we implemented pause / play buttons to give the user some control over the sound that was being played so that they could pause it whenever they felt like it and resume it whenever they wanted to. IMplementing this was a bit of a challenge because we had to take into account the two different audio files that were playing / pausing depending on the stage the story was in, and pause the relevant audio. For example, if the user was on the phone with the scammer and they pressed the pause button, we had to pause the audio of the scammer and not the audio of the bank official. We implemented this by using state variables to store the current state of both the audio files and check which screen the user was on by checking which calling-screen image was currently displayed.
 
 ### Contributions
 
-Soumen: Script writing, Audio Editing on Audacity.<br/>
+Soumen: Script writing, Audio Editing on Audacity, Coming up with Scam Call Idea.<br/>
 Aibar: Script writing, Customer Voice Actor, Audio Editing on Audacity.<br/>
-Tarek: Script writing, Scammer Voice Actor, Adobe Photoshop<br/>
+Tarek: Script writing, Scammer Voice Actor, Image Editing on Adobe Photoshop<br/>
 Abraiz: Script writing, Bank Official Voice Actor, Coding HTML, CSS, JavaScript. <br/><br/>
 
 <p align="center">
