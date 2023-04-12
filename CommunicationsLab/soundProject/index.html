@@ -8,21 +8,26 @@
     <title>The Scam</title>
   </head>
   <body>
-    <!-- the phone screen -->
+    <!-- phone frame with screen -->
     <div class="phone">
       <img id="phone-ringing" src="./images/phone-ringing.png" alt="" />
     </div>
+    <!-- phone screen images to be used -->
     <img id="uae-call" src="./images/UAEbank-call.png" alt="" />
     <img id="dubai-call" src="./images/dubaiBank-call.png" alt="" />
     <img id="lockscreen" src="./images/lockscreen.png" alt="" />
+    <!-- unlock and attend buttons -->
     <button id="unlock-button">Unlock</button>
     <button id="attend-button">
       <img src="./images/attend.png" alt="" />
     </button>
+    <!-- restart button for the last screen -->
     <button id="restart-button" onclick="location.reload()">Restart</button>
+    <!-- play/pause button that alternates -->
     <button id="bPlayPause">
       <img id="imgPlayPause" src="images/pause.png" />
     </button>
+    <!-- audio for ringtone, scam, and bank official -->
     <audio id="ringtone" loop>
       <source src="sounds/ringing.mp3" type="audio/mpeg" />
     </audio>

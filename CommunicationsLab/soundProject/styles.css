@@ -21,7 +21,6 @@ body {
 }
 
 #lockscreen {
-  /* display: none; */
   position: absolute;
   width: 400px;
   left: 35vw;
@@ -69,8 +68,6 @@ body {
 }
 
 #attend-button {
-  /* border: 0.15vw solid rgb(255, 255, 255);
-    border-radius: 40%; */
   display: none;
   border: none;
   position: absolute;
@@ -78,15 +75,11 @@ body {
   height: 7vh;
   left: 44.8vw;
   top: 80vh;
-  /* opacity: 50%; */
   background-color: transparent;
-  /* color: rgb(255, 255, 255); */
   cursor: pointer;
 }
 
 #bPlayPause {
-  /* border: 0.15vw solid rgb(255, 255, 255);
-    border-radius: 40%; */
   display: none;
   border: none;
   position: absolute;
@@ -94,9 +87,7 @@ body {
   height: 7vh;
   left: 45.3vw;
   top: 76.5vh;
-  /* opacity: 50%; */
   background-color: transparent;
-  /* color: rgb(255, 255, 255); */
   cursor: pointer;
 }
 
