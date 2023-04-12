@@ -13,11 +13,12 @@ The story follows the journey of a protagonist who is scammed by someone pretend
 
 <p align="center">
   <img 
-    width="300"
-    height="200"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/attend.png"
+    width="200"
+    height="400"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/phone-ringing.png"
   >
 </p>
+
 
 ## Process
 
@@ -40,7 +41,7 @@ Abraiz: Script writing, Bank Official Voice Actor, Coding HTML, CSS, JavaScript.
   <img 
     width="500"
     height="350"
-    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/comicWebsite/photos/beach background.png"
+    src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/blue-bg.jpg"
   >
 </p>
 
@@ -52,8 +53,8 @@ In our opinion through "The Scam!" project we are pushing ourselves creatively b
 
 <p align="center">
   <img 
-    width="150"
-    height="150"
+    width="75"
+    height="75"
     src="https://github.com/Abraiz01/Abraiz01.github.io/blob/main/CommunicationsLab/soundProject/images/attend.png"
   >
 </p>
