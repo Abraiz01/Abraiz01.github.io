@@ -45,7 +45,7 @@ audioScam.addEventListener("ended", function () {
   changeBackgroundImage('images/red-bg.jpg');
   console.log("Scam Audio ended");
   uaeCallImg.style.display = "none";
-  lockscreen.style.display = "block";
+//   lockscreen.style.display = "block";
   alert(
     "Purchase of AED 5000 on your account XXX748360 was successful. Available balance is 11.34 AED"
   );
