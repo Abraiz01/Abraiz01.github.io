@@ -109,13 +109,37 @@ body {
   opacity: 0;
 }
 
-.title_0 {
+.title_00 {
+  color: #EA7FFB;
+  /* border: 0.15vw solid white; */
+  font-size: 2vw;
+  left: 6.5vw;
+  top: 38vh;
+  position: absolute;
+  opacity: 75%;
+  /* display: none; */
+  margin: 0;
+}
+
+.title_01 {
   color: #f0e3e3;
   /* border: 0.15vw solid white; */
-  font-size: 80px;
+  font-size: 5.5vw;
   left: 6vw;
-  top: 42vh;
+  top: 45vh;
   position: absolute;
+  margin: 0;
+}
+
+.title_02 {
+  color: #f0e3e3;
+  /* border: 0.15vw solid white; */
+  font-size: 1.2vw;
+  left: 6.5vw;
+  top: 60vh;
+  position: absolute;
+  opacity: 60%;
+  /* display: none; */
   margin: 0;
 }
 
