@@ -219,7 +219,7 @@ body {
   border-radius: 20%;
   opacity: 0.6;
   transition: opacity 0.2s;
-  background-image: url("./photos/up-arrowhead.png");
+  background-image: url("./assets/up-arrowhead.png");
 }
 
 #back-to-top:hover {
@@ -597,6 +597,7 @@ body {
   left: 6vw;
   top: 20vh;
   position: absolute;
+  opacity: 85%;
   width: 45vw;
   margin: 0;
 }
