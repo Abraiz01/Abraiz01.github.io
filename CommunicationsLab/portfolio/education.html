@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="w3-light-grey w3-content" style="max-width: 1600px">
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+      style="z-index: 3; width: 300px; font-weight: bold"
+      id="mySidebar"
+    >
+      <br />
+      <div class="w3-padding-32 w3-center">
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"
+          >HOME</a
+        >
+
+        <a href="projects.html" class="w3-bar-item w3-button"> PROJECTS</a>
+        <a
+          href="experience.html"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button"
+          >EXPERIENCE</a
+        >
+        <a
+          href="interests.html"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button"
+          >INTERESTS</a
+        >
+      </div>
+
+      <hr class="w3-black" />
+
+      <!-- <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a> -->
+      <div class="w3-padding-32 w3-center">
+        <a href="education.html">
+          <h3 class="w3-button w3-center"><b>EDUCATION</b></h3>
+        </a>
+        <a href="#nyu" onclick="w3_close()" class="w3-bar-item w3-button"
+          >COLLEGE</a
+        >
+        <a href="#nixor" onclick="w3_close()" class="w3-bar-item w3-button"
+          >A LEVELS</a
+        >
+        <a href="#bahria" onclick="w3_close()" class="w3-bar-item w3-button"
+          >O LEVELS</a
+        >
+      </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header
+      class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16"
+    >
+      <span class="w3-left w3-padding">EDUCATION</span>
+      <a
+        href="javascript:void(0)"
+        class="w3-right w3-button w3-white"
+        onclick="w3_open()"
+        >☰</a
+      >
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left: 300px">
+      <div class="w3-hide-large" style="margin-top: 83px"></div>
+
+      <div
+        class="w3-container w3-black w3-center w3-text-light-grey w3-padding-64"
+        id="nyu"
+      >
+        <div class="w3-container w3-center">
+          <h2><b>New York University</b></h2>
+          <h6>Bachelor of Science - BS, Computer Science</h6>
+          <h6>Bachelor of Arts - BA, Interactive Media</h6>
+          <h6>2020 - 2024</h6>
+          <div
+            class="w3-content w3-justify w3-padding-large"
+            style="max-width: 600px"
+          >
+            <h6>Activities and Societies</h6>
+            <p class="w3-animate-opacity">
+              Resident Assistant, Virtual Reality Programmer Research Assistant
+              at the MRI Lab, Tennis Team, Events Coordinator for the Pakistan
+              Students Association at NYUAD
+            </p>
+            <h6>Skills</h6>
+            <p class="w3-animate-opacity">
+              Python · C++ · MongoDB · SQL · Pandas · Web Development · React.js · Unreal Engine 5 · Unity · Game Design  
+            </p>
+            <h6>Schools</h6>
+            <p class="w3-animate-opacity">
+              NYU Abu Dhabi<br />
+              NYU College of Arts and Science<br />
+              NYU Tisch School of the Arts
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-64"
+        id="nixor"
+      >
+        <div class="w3-container w3-center">
+          <h2><b>Nixor College</b></h2>
+          <h6>GCE A Levels</h6>
+          <h6>2018 - 2020</h6>
+          <div
+            class="w3-content w3-justify w3-padding-large"
+            style="max-width: 600px"
+          >
+            <h6>Activities and Societies</h6>
+            <p class="w3-animate-opacity">
+              Teaching Assistant for Mathematics, Further Mathematics, and
+              Physics; Mathematics Olympiad - Head Delegate; Science Bowl;
+              Tennis Team; Football (Soccer) Team; Cricket Team.
+            </p>
+            <h6>Grade</h6>
+            <p class="w3-animate-opacity">
+              Straight A* in 4 subjects <br>
+              Mathematics; Further Mathematics; Physics; 
+              Chemistry
+            </p>
+            <h6>Awards</h6>
+            <p class="w3-animate-opacity">
+              Senior Teaching Assistant; Dean's List; Academic Excellence Award;
+              Top in Further Mathematics Award;
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="w3-container w3-black w3-center w3-text-light-grey w3-padding-64"
+        id="bahria"
+      >
+        <div class="w3-container w3-center">
+          <h2><b>Bahria College</b></h2>
+          <h6>GCE O Levels</h6>
+          <h6>2015 - 2018</h6>
+          <div
+            class="w3-content w3-justify w3-padding-large"
+            style="max-width: 600px"
+          >
+            <h6>Activities and Societies</h6>
+            <p class="w3-animate-opacity">
+              Head Boy - Student Government; Scrabble Team; Football (Soccer)
+              Team; Cricket Team; Model United Nations (MUN); Volunteer at the
+              school's Special Children's section.
+            </p>
+            <h6>Grade</h6>
+            <p class="w3-animate-opacity">
+              Straight A* in 9 subjects <br>
+              Mathematics; Additional Mathematics; Physics;
+              Chemistry; Computer Science; English; Urdu; Islamiyat; Pakistan Studies
+            </p>
+            <h6>Awards</h6>
+            <p class="w3-animate-opacity">
+              Senior Teaching Assistant; Dean's List; Academic Excellence Award;
+              Top in Further Mathematics Award;
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-black w3-center w3-padding-24">
+        <p>Education</p>
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
