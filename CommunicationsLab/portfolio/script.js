@@ -16,8 +16,10 @@ function myFunction() {
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
   ) {
-    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    // console.log("inside if")
+    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-dark-grey";
   } else {
+    // console.log("inside else")
     navbar.className = navbar.className.replace(
       " w3-card w3-animate-top w3-white",
       ""
